@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e2c992a5-0f37-48ff-88a4-7c40cfcda45e")
+	(paper "A3")
+	(title_block
+		(title "AirDahl Flight Computer")
+		(date "2026-03-27")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
