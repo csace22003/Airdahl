@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ABS25-32.768KHZ-6-T")(type "KiCad")(uri "${KIPRJMOD}/local-libraries/ABS25_32_768KHZ_6_T/ABS25-32.768KHZ-6-T.kicad_sym")(options "")(descr ""))
+)
