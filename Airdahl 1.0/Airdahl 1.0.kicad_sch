@@ -6573,6 +6573,90 @@
 			)
 		)
 	)
+	(sheet
+		(at 245.11 218.44)
+		(size 34.29 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2167b329-fc5a-4a37-b4ed-8c39fcf6e101")
+		(property "Sheetname" "Power Distribution and Motor Control"
+			(at 245.11 217.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_distribution.kicad_sch"
+			(at 245.11 229.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 245.11)
+		(size 41.91 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28e6bd3b-1e4a-4501-ae8d-2a37e1612c06")
+		(property "Sheetname" "Pyro Channels"
+			(at 240.03 244.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pyro_channels.kicad_sch"
+			(at 240.03 260.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
