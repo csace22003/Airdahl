@@ -621,6 +621,10 @@
     [
       "28e6bd3b-1e4a-4501-ae8d-2a37e1612c06",
       "Pyro Channels"
+    ],
+    [
+      "bd752d91-9d5e-4749-819a-1163586784de",
+      "Sensors and Other Devices"
     ]
   ],
   "text_variables": {}

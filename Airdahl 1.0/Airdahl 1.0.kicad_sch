@@ -4013,6 +4013,18 @@
 		(uuid "a8bc2ca4-236e-42f4-aeef-6e63e9b68cfc")
 	)
 	(junction
+		(at 233.68 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a90afee9-cc18-4c49-a850-8af0c68b80ef")
+	)
+	(junction
+		(at 236.22 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9af7f86-4a4b-4106-9bad-b4bc9c0481aa")
+	)
+	(junction
 		(at 195.58 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4029,6 +4041,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d07a9729-a7db-46ea-a60e-7b96ec14ff91")
+	)
+	(junction
+		(at 236.22 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbfe14d3-5765-4276-8934-738b43b1d23a")
 	)
 	(junction
 		(at 203.2 76.2)
@@ -4149,6 +4167,16 @@
 			(type default)
 		)
 		(uuid "15874998-4988-4519-aeb6-12f226e4d48b")
+	)
+	(wire
+		(pts
+			(xy 233.68 158.75) (xy 241.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18372b12-9d36-492b-8cba-d4eedee5c94a")
 	)
 	(wire
 		(pts
@@ -4482,6 +4510,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 148.59) (xy 233.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511843d5-8766-483f-b1f2-e1300bdc60f7")
+	)
+	(wire
+		(pts
 			(xy 157.48 128.27) (xy 152.4 128.27)
 		)
 		(stroke
@@ -4702,6 +4740,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 144.78) (xy 236.22 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713b2732-3966-4e88-833f-54742ac72c9e")
+	)
+	(wire
+		(pts
+			(xy 236.22 156.21) (xy 241.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75118e7e-4f25-487f-b0ee-8394562350a1")
+	)
+	(wire
+		(pts
 			(xy 238.76 74.93) (xy 238.76 76.2)
 		)
 		(stroke
@@ -4749,6 +4807,16 @@
 			(type default)
 		)
 		(uuid "7dea1c45-55d9-4ba9-ba53-a366d30b7b98")
+	)
+	(wire
+		(pts
+			(xy 215.9 156.21) (xy 236.22 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5a5dde-915c-4c0c-950e-d3d3998c155c")
 	)
 	(wire
 		(pts
@@ -4922,6 +4990,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 143.51) (xy 236.22 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09e7d4f-8042-44fc-a7c5-19cf2b4ccf65")
+	)
+	(wire
+		(pts
+			(xy 233.68 144.78) (xy 236.22 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0cf3067-3449-432e-9a79-6d9f730eb006")
+	)
+	(wire
+		(pts
 			(xy 195.58 83.82) (xy 193.04 83.82)
 		)
 		(stroke
@@ -4949,6 +5037,16 @@
 			(type default)
 		)
 		(uuid "b5194c21-9e7e-49a9-b3a7-67cc6d755695")
+	)
+	(wire
+		(pts
+			(xy 236.22 153.67) (xy 236.22 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6428100-119a-47e9-b886-8f5cd1aefcf9")
 	)
 	(wire
 		(pts
@@ -4999,6 +5097,16 @@
 			(type default)
 		)
 		(uuid "cd424a8f-1f74-48f0-83c3-21bfb033e0b0")
+	)
+	(wire
+		(pts
+			(xy 233.68 153.67) (xy 233.68 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce74b3ea-b1ca-4d25-899c-b4a261758f6f")
 	)
 	(wire
 		(pts
@@ -5099,6 +5207,16 @@
 			(type default)
 		)
 		(uuid "f4e194b0-898a-4ef3-bdf8-0c648139cc0d")
+	)
+	(wire
+		(pts
+			(xy 215.9 158.75) (xy 233.68 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f602d109-7084-4351-94e1-4bd54ae68a20")
 	)
 	(wire
 		(pts
@@ -5339,6 +5457,50 @@
 			(justify right bottom)
 		)
 		(uuid "edb53f85-b626-40e3-bb5b-82908c1bfa52")
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 241.3 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3391aefe-f24b-4200-bc65-ac1e59f1bcd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.8533 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 241.3 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d36603eb-7a92-48e0-97f8-e6931a94e020")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.7928 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "V_REG"
 		(shape bidirectional)
@@ -7636,6 +7798,212 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 233.68 151.13 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ff43feb-a5f9-46c5-95e7-e3ce4c0b10c1")
+		(property "Reference" "R18"
+			(at 231.14 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 231.14 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 233.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 233.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25252382-a503-4e4e-a3a9-aa1b03c86b63")
+		)
+		(pin "1"
+			(uuid "6e5eaa62-2ab8-48dc-9754-7b29c0ca3e17")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 236.22 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1b35a34-23d9-42f9-9a21-8658114fa665")
+		(property "Reference" "R17"
+			(at 238.76 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 238.76 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 236.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 236.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05746ed1-99d6-4537-b407-e260ad38db18")
+		)
+		(pin "1"
+			(uuid "b1486484-a416-4f1f-8715-6997503e5495")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 236.22 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9baa852-4ff0-4c60-9a78-3b8d32d8c97d")
+		(property "Reference" "#PWR034"
+			(at 236.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 236.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 236.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3491e8c4-5a78-43af-b290-15409f324f42")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ABS25-32.768KHZ-6-T:ABS25-32.768KHZ-6-T")
 		(at 144.78 157.48 90)
 		(mirror x)
@@ -8876,6 +9244,48 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 223.52)
+		(size 27.94 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd752d91-9d5e-4749-819a-1163586784de")
+		(property "Sheetname" "Sensors and Other Devices"
+			(at 171.45 222.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 171.45 238.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(page "4")
 				)
 			)
 		)
