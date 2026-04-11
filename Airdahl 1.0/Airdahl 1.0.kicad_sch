@@ -5459,7 +5459,7 @@
 		(uuid "edb53f85-b626-40e3-bb5b-82908c1bfa52")
 	)
 	(global_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 241.3 158.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5470,7 +5470,7 @@
 		)
 		(uuid "3391aefe-f24b-4200-bc65-ac1e59f1bcd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.8533 158.75 0)
+			(at 248.9646 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5481,7 +5481,7 @@
 		)
 	)
 	(global_label "SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 241.3 156.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5492,7 +5492,7 @@
 		)
 		(uuid "d36603eb-7a92-48e0-97f8-e6931a94e020")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.7928 156.21 0)
+			(at 248.9041 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,8 +9207,8 @@
 		)
 	)
 	(sheet
-		(at 240.03 245.11)
-		(size 41.91 15.24)
+		(at 245.11 235.585)
+		(size 34.29 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9223,7 +9223,7 @@
 		)
 		(uuid "28e6bd3b-1e4a-4501-ae8d-2a37e1612c06")
 		(property "Sheetname" "Pyro Channels"
-			(at 240.03 244.3984 0)
+			(at 245.11 234.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,7 +9232,7 @@
 			)
 		)
 		(property "Sheetfile" "pyro_channels.kicad_sch"
-			(at 240.03 260.9346 0)
+			(at 245.11 246.3296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,8 +9249,8 @@
 		)
 	)
 	(sheet
-		(at 171.45 223.52)
-		(size 27.94 13.97)
+		(at 245.745 201.295)
+		(size 33.02 9.525)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9265,7 +9265,7 @@
 		)
 		(uuid "bd752d91-9d5e-4749-819a-1163586784de")
 		(property "Sheetname" "Sensors and Other Devices"
-			(at 171.45 222.8084 0)
+			(at 245.745 200.5834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9274,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 171.45 238.0746 0)
+			(at 245.745 211.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
