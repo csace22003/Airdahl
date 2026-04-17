@@ -11,4 +11,6 @@
   (lib (name "BMP581")(type "KiCad")(uri "${KIPRJMOD}/local-libraries/BMP581/BMP581.kicad_sym")(options "")(descr ""))
   (lib (name "BNO085")(type "KiCad")(uri "${KIPRJMOD}/local-libraries/BNO085/BNO085.kicad_sym")(options "")(descr ""))
   (lib (name "2025-12-12_19-35-05")(type "KiCad")(uri "${KIPRJMOD}/local-libraries/i2c_qwiic_connector/2025-12-12_19-35-05.kicad_sym")(options "")(descr ""))
+  (lib (name "RFM95W-915S2")(type "KiCad")(uri "${KIPRJMOD}/local-libraries/RFM95W-915S2/RFM95W-915S2.kicad_sym")(options "")(descr ""))
+  (lib (name "CONUFL001-SMD-T")(type "KiCad")(uri "${KIPRJMOD}/local-libraries/CONUFL001-SMD-T/CONUFL001-SMD-T.kicad_sym")(options "")(descr ""))
 )
