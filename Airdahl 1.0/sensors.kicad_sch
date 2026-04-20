@@ -2764,16 +2764,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "RF Solutions"
+			(property "Description" "RFM95W LoRA Transceiver Module 915MHz"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2783,7 +2774,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "RFM95W LoRA Transceiver Module 915MHz"
+			(property "MF" "RF Solutions"
 				(at 0 0 0)
 				(effects
 					(font

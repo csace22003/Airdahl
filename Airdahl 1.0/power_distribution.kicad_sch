@@ -1359,6 +1359,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Daughter board interface:\nPIN			Payload Function		Airbrakes+R/P Function\n1			3V3						3V3\n2			VIN						VIN\n3			GND						GND\n4			PWM1					PWM\n5			PWM2					NC\n6			F/REV1					CHARGE1\n7			F/REV2					CHARGE2\n8			SOLENOID				NC\n"
+		(exclude_from_sim no)
+		(at 167.132 83.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06e9dbf0-538e-4675-ba50-4c42949385c1")
+	)
 	(text "R23 solely for loop stability testing, completely optional"
 		(exclude_from_sim no)
 		(at 139.954 132.08 0)
