@@ -1374,6 +1374,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -3886,6 +4010,16 @@
 		)
 		(uuid "241c9f98-1d85-4b1e-9ee2-accc146ee79a")
 	)
+	(text "Source-terminating resistors"
+		(exclude_from_sim no)
+		(at 238.76 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38115bbf-8460-45f0-a323-9ac762d3d4a7")
+	)
 	(text "VDD Decoupling caps"
 		(exclude_from_sim no)
 		(at 252.73 73.406 0)
@@ -4130,6 +4264,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 110.49) (xy 238.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d848ddc-8b29-41e3-95f7-26f1f16c1473")
+	)
+	(wire
+		(pts
 			(xy 171.45 158.75) (xy 171.45 161.29)
 		)
 		(stroke
@@ -4277,6 +4421,16 @@
 			(type default)
 		)
 		(uuid "25209649-38cd-48b0-b2a6-c867943b0f28")
+	)
+	(wire
+		(pts
+			(xy 224.79 102.87) (xy 226.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b190a0-b6d3-40cb-8fce-e7ffc4a49906")
 	)
 	(wire
 		(pts
@@ -4510,7 +4664,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 110.49) (xy 218.44 110.49)
+			(xy 215.9 110.49) (xy 229.87 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4860,6 +5014,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 105.41) (xy 237.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ea1cde-448e-472c-aa8c-e5a12e5f64f1")
+	)
+	(wire
+		(pts
 			(xy 161.29 63.5) (xy 158.75 63.5)
 		)
 		(stroke
@@ -5040,7 +5204,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 107.95) (xy 218.44 107.95)
+			(xy 215.9 107.95) (xy 238.76 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5070,7 +5234,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 102.87) (xy 218.44 102.87)
+			(xy 215.9 102.87) (xy 217.17 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5177,16 +5341,6 @@
 			(type default)
 		)
 		(uuid "dad108cb-f10e-4547-8cb9-612a1135822e")
-	)
-	(wire
-		(pts
-			(xy 215.9 105.41) (xy 218.44 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd1cf283-6e81-4ef9-afea-b6417627085d")
 	)
 	(wire
 		(pts
@@ -5522,7 +5676,7 @@
 	)
 	(global_label "SCLK"
 		(shape bidirectional)
-		(at 218.44 105.41 0)
+		(at 242.57 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5532,7 +5686,7 @@
 		)
 		(uuid "34530706-6230-4f54-bdc3-1e5f62bd98f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.3141 105.41 0)
+			(at 251.4441 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5698,7 @@
 	)
 	(global_label "CS_RFM"
 		(shape bidirectional)
-		(at 218.44 102.87 0)
+		(at 226.06 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5554,7 +5708,7 @@
 		)
 		(uuid "93d6dfc0-3507-4dec-a30d-5e21cb3acaa1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.7936 102.87 0)
+			(at 237.4136 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5720,7 @@
 	)
 	(global_label "MOSI"
 		(shape bidirectional)
-		(at 218.44 110.49 0)
+		(at 238.76 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5576,7 +5730,7 @@
 		)
 		(uuid "aaf2b96f-4fdb-4ece-a5ac-62a3e72c730c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1327 110.49 0)
+			(at 247.4527 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5742,7 @@
 	)
 	(global_label "MISO"
 		(shape bidirectional)
-		(at 218.44 107.95 0)
+		(at 238.76 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5598,7 +5752,7 @@
 		)
 		(uuid "b6a2184d-7054-4394-8eb6-af0f90292643")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1327 107.95 0)
+			(at 247.4527 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,6 +7746,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 240.03 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89e283ed-3ca7-4e0f-894f-cd5ab7907d72")
+		(property "Reference" "R41"
+			(at 240.03 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 240.03 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 240.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 240.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83e4c231-2aeb-4ea8-bc70-30ec8a6dcf95")
+		)
+		(pin "1"
+			(uuid "503094ff-b5d5-45f6-9893-2e3598b42301")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 168.91 0)
 		(unit 1)
@@ -7652,6 +7874,73 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 232.41 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d2483a0-dad1-4f37-b116-ffc3babb0b32")
+		(property "Reference" "R42"
+			(at 232.41 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 232.41 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a417079c-ec9e-4796-8590-b348e168ec2e")
+		)
+		(pin "1"
+			(uuid "766186a6-9686-4766-92b1-cd69eb4ce454")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -8060,6 +8349,75 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a634b73b-176f-4c3c-8a85-39414e76e3ba")
+		(property "Reference" "R40"
+			(at 222.25 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22"
+			(at 222.25 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 220.98 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86b6861f-529f-466e-95a2-c86118b2efed")
+		)
+		(pin "2"
+			(uuid "e7f20f28-fac5-444d-bd8d-265001d4b60f")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "R40")
 					(unit 1)
 				)
 			)
