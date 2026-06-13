@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TPS542025") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TPS542025.pretty") (options "") (descr ""))
+	(lib (name "TPS542025") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TPS542025.pretty") (options "") (descr ""))
+	(lib (name "TPS542025") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TPS542025/TPS542025.pretty") (options "") (descr ""))
+)
