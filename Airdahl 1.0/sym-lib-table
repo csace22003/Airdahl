@@ -16,4 +16,5 @@
 	(lib (name "104031-0811") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/104031-0811/104031-0811.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS542025") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TPS542025/TPS542025.kicad_sym") (options "") (descr ""))
 	(lib (name "BD6222HFP-TR") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/BD6222HFP-TR/BD6222HFP-TR.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS75533KTRRG3") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TPS75533KTTRG3/2026-06-21_17-38-02.kicad_sym") (options "") (descr ""))
 )

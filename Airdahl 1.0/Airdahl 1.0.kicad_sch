@@ -4184,7 +4184,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "reserved for alternate/laptop power, pin 19 doesnt seem to be capable of supplying enough power"
+	(text "reserved for alternate/laptop power, pin 19 doesnt seem to be capable of supplying enough current :("
 		(exclude_from_sim no)
 		(at 156.464 50.546 0)
 		(effects
