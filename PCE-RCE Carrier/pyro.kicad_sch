@@ -2,8 +2,15 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "2cd3549f-f150-491b-946c-061f17cb8d28")
+	(uuid "69a30cee-f7ca-491a-8429-2d8001a35f98")
 	(paper "A4")
+	(title_block
+		(title "RCE Pyro Charges")
+		(date "2026-08-16")
+		(rev "1")
+		(company "Washington University in St. Louis")
+		(comment 1 "Department of Electrical and Systems Engineering")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -940,437 +947,413 @@
 	)
 	(text "BP series resistors should be high power (>4W, very chonk)"
 		(exclude_from_sim no)
-		(at 126.238 149.86 0)
+		(at 126.238 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "49ba72a7-67a1-4812-8ed7-f9eda842232b")
+		(uuid "7810381e-00f9-4827-8282-d3cefd739e28")
 	)
 	(text "spice says ~935mA current for this config (~84 current gain)"
 		(exclude_from_sim no)
-		(at 126.492 152.4 0)
+		(at 126.492 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "b6612fa9-19cd-4427-8148-19edbc93a8f1")
+		(uuid "eb5fb26c-3d15-4fd8-9d59-cf3762942e36")
 	)
 	(junction
-		(at 152.4 115.57)
+		(at 193.04 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09fb561a-5aef-4e2b-a7e9-d67fd8c55a08")
+		(uuid "191b46d9-c621-44b1-9bec-b28df27cfb84")
 	)
 	(junction
-		(at 193.04 77.47)
+		(at 113.03 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a50cd45-a98f-4826-9906-1db1681d57c2")
+		(uuid "1aff699c-9a3b-4c04-af1a-51f701dfc5b3")
 	)
 	(junction
-		(at 193.04 87.63)
+		(at 120.65 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2bcfa877-f46d-43a1-a508-94fec7062e46")
+		(uuid "215fa7ca-e59b-452f-b296-78b3efd4715b")
 	)
 	(junction
-		(at 73.66 115.57)
+		(at 81.28 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3eace4fd-dc09-4a55-8b0f-b66ca30bedb9")
+		(uuid "29b98a45-a68c-4d37-a47b-3d8459e906f5")
 	)
 	(junction
-		(at 120.65 123.19)
+		(at 73.66 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a92bb85a-d549-4071-afca-e7a65de524ee")
+		(uuid "465cb7b5-76f9-4c39-b655-df42818aa06f")
 	)
 	(junction
-		(at 189.23 115.57)
+		(at 189.23 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad13fe87-68dc-40c2-bd1a-de0fc0a0359b")
+		(uuid "5a12a6a7-dd54-4b88-afc1-a1094e256049")
 	)
 	(junction
-		(at 81.28 123.19)
+		(at 193.04 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bc52842b-625e-4ddb-9de0-ee0b05903e87")
+		(uuid "93f14df0-dbc2-4fb2-b21d-abeb97ee3042")
 	)
 	(junction
-		(at 193.04 82.55)
+		(at 160.02 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c8930f4d-778b-45fd-8746-654f55f58fe4")
+		(uuid "9a627e2b-5e4b-4b30-90a7-75fc47758083")
 	)
 	(junction
-		(at 160.02 123.19)
+		(at 152.4 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c964f7b7-7b50-43f9-9bcf-4112e03887ed")
+		(uuid "b73cc7a3-3352-4779-a36e-75dbf5dafd4f")
 	)
 	(junction
-		(at 113.03 115.57)
+		(at 193.04 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2584ebf-640e-439a-912c-499db66682e6")
+		(uuid "e4b3a95e-809f-4133-8cd2-518f0cb7018d")
 	)
 	(junction
-		(at 196.85 123.19)
+		(at 196.85 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d59c138e-a457-4939-8fb5-010ba0ed076a")
+		(uuid "efe2014e-049e-487b-85cd-b9431cd51e6c")
 	)
 	(wire
 		(pts
-			(xy 189.23 115.57) (xy 189.23 123.19)
+			(xy 113.03 110.49) (xy 113.03 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "074b5aba-df0c-4c8e-be8b-6b839124519a")
+		(uuid "00299fd3-4962-46fa-a55b-88a93fcd54b1")
 	)
 	(wire
 		(pts
-			(xy 81.28 120.65) (xy 81.28 123.19)
+			(xy 193.04 80.01) (xy 199.39 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b54813a-fc1c-47cc-af8c-edd88756ec31")
+		(uuid "014bed4b-7b70-40c1-9218-3bd50c8112e6")
 	)
 	(wire
 		(pts
-			(xy 160.02 85.09) (xy 160.02 102.87)
+			(xy 152.4 102.87) (xy 152.4 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "278d37eb-97b9-42ca-ae06-e0a3bbe798ff")
+		(uuid "04da65d6-df17-4b7d-8cff-4fb789663f25")
 	)
 	(wire
 		(pts
-			(xy 71.12 115.57) (xy 73.66 115.57)
+			(xy 199.39 72.39) (xy 160.02 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27c18f54-3209-4e1d-a3bf-29f3959cb175")
+		(uuid "0617c38c-38af-4910-b072-e1a33a02b4c2")
 	)
 	(wire
 		(pts
-			(xy 104.14 115.57) (xy 105.41 115.57)
+			(xy 73.66 102.87) (xy 73.66 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32a0c51b-bbab-4eec-9d7e-36751b2d1870")
+		(uuid "19174a01-2382-4b68-b685-36fbd9e604de")
 	)
 	(wire
 		(pts
-			(xy 81.28 74.93) (xy 199.39 74.93)
+			(xy 120.65 67.31) (xy 199.39 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35c89702-a121-4a11-b47e-2b5a5db155af")
+		(uuid "19c0f818-afed-4331-9f32-f7871aee8f09")
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 160.02 85.09)
+			(xy 104.14 102.87) (xy 105.41 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37215c4a-cdfc-4868-b109-c0dd95061e92")
+		(uuid "1b3ea50a-7746-4a76-8673-b8720405fc19")
 	)
 	(wire
 		(pts
-			(xy 193.04 72.39) (xy 193.04 77.47)
+			(xy 193.04 64.77) (xy 193.04 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "427a4f15-3eac-4a29-910d-f75812c78d36")
+		(uuid "311f6899-9b3e-4c75-a213-ad42a28cd20b")
 	)
 	(wire
 		(pts
-			(xy 73.66 115.57) (xy 73.66 123.19)
+			(xy 199.39 77.47) (xy 196.85 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48902b0c-edb6-440b-a3ca-1813695a1a9a")
+		(uuid "33bb2d03-ba62-4867-a784-1261c2e92aa9")
 	)
 	(wire
 		(pts
-			(xy 113.03 123.19) (xy 113.03 115.57)
+			(xy 63.5 102.87) (xy 62.23 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fb74fb2-eca4-4661-87d3-44303e4a351e")
+		(uuid "39d84027-5f3a-4f5b-8d38-feca9b85621d")
 	)
 	(wire
 		(pts
-			(xy 196.85 123.19) (xy 196.85 130.81)
+			(xy 189.23 102.87) (xy 189.23 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53078379-6389-4ec8-9483-a1ca8a13b4e2")
+		(uuid "4549049e-a866-4fb1-afc9-e5b3fb72f172")
 	)
 	(wire
 		(pts
-			(xy 193.04 82.55) (xy 193.04 87.63)
+			(xy 193.04 59.69) (xy 193.04 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fa68b5c-89d7-496f-b66f-475a998e9da3")
+		(uuid "46540e4f-27ea-4a32-8082-a5bcb5f6ab5d")
 	)
 	(wire
 		(pts
-			(xy 144.78 115.57) (xy 142.24 115.57)
+			(xy 196.85 77.47) (xy 196.85 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75deaa4f-c4da-45a5-b0a8-e4c948e6ec29")
+		(uuid "55bbb1ad-3b76-4dfa-ac14-79c1223b9e08")
 	)
 	(wire
 		(pts
-			(xy 196.85 120.65) (xy 196.85 123.19)
+			(xy 71.12 102.87) (xy 73.66 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8010196e-4e9f-44ee-bac7-34aecba39324")
+		(uuid "5aaeaaa4-fb37-4ce4-8f40-3542743232f4")
 	)
 	(wire
 		(pts
-			(xy 120.65 123.19) (xy 120.65 130.81)
+			(xy 160.02 110.49) (xy 160.02 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d085de3-10a2-4307-9ec4-217c2beba2bc")
+		(uuid "641ecb88-48fa-4fad-9688-648ca94d849e")
 	)
 	(wire
 		(pts
-			(xy 81.28 123.19) (xy 81.28 130.81)
+			(xy 160.02 107.95) (xy 160.02 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90a798b5-870c-4091-b5de-d806e446f64e")
+		(uuid "6b494c06-a95b-4705-a82a-ec5d83d64966")
 	)
 	(wire
 		(pts
-			(xy 160.02 123.19) (xy 160.02 130.81)
+			(xy 81.28 110.49) (xy 81.28 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "911b0211-80ee-41a0-9f2f-022ed9f70551")
+		(uuid "749cc7fc-c280-4cbe-a556-840b70dcdd8c")
 	)
 	(wire
 		(pts
-			(xy 160.02 120.65) (xy 160.02 123.19)
+			(xy 144.78 102.87) (xy 142.24 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d7484fb-4e3a-4dac-9c01-4f22f02e7404")
+		(uuid "764fbf07-364b-4310-b2fa-84d06c289c77")
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 120.65 102.87)
+			(xy 199.39 69.85) (xy 193.04 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a886df92-fdbb-4f5f-a15d-cac1a08b2a16")
+		(uuid "8fd913e4-a34a-4b8e-80d9-4ec99750f901")
 	)
 	(wire
 		(pts
-			(xy 199.39 82.55) (xy 193.04 82.55)
+			(xy 193.04 69.85) (xy 193.04 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b357fc4e-2cb2-49f4-885b-8d892bb42539")
+		(uuid "968bb303-4fc6-481d-9b77-61a9239c49bf")
 	)
 	(wire
 		(pts
-			(xy 199.39 77.47) (xy 193.04 77.47)
+			(xy 120.65 67.31) (xy 120.65 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdaaf5c2-c27b-42ac-941b-5e995c37660b")
+		(uuid "a3885491-a581-4533-aaab-7f6567331e08")
 	)
 	(wire
 		(pts
-			(xy 193.04 87.63) (xy 193.04 92.71)
+			(xy 199.39 74.93) (xy 193.04 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce111a7f-edd3-4228-b011-27e24824ae72")
+		(uuid "b919293b-fc58-4504-85ca-9cb0e8988bd4")
 	)
 	(wire
 		(pts
-			(xy 193.04 77.47) (xy 193.04 82.55)
+			(xy 81.28 90.17) (xy 81.28 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf6110fd-ad53-446f-b658-1c547624684e")
+		(uuid "b9da16f5-77a6-4cca-888e-5c127f7dbad0")
 	)
 	(wire
 		(pts
-			(xy 152.4 115.57) (xy 152.4 123.19)
+			(xy 193.04 74.93) (xy 193.04 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d13db717-e9aa-4516-9362-e3d9ca2c8404")
+		(uuid "c760216d-a63e-4307-8264-7d3633e8071b")
 	)
 	(wire
 		(pts
-			(xy 63.5 115.57) (xy 62.23 115.57)
+			(xy 196.85 107.95) (xy 196.85 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d69e4e4b-fec8-4654-9dd8-d51aea195b73")
+		(uuid "ca9730a7-338d-4595-ab36-8df19953ea2b")
 	)
 	(wire
 		(pts
-			(xy 199.39 90.17) (xy 196.85 90.17)
+			(xy 81.28 107.95) (xy 81.28 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd20cf71-2d6a-4723-b015-e0ba9bc72898")
+		(uuid "cd82682d-570f-48f7-bdcf-0a259d206d77")
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 199.39 80.01)
+			(xy 81.28 62.23) (xy 199.39 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e45a8151-27d6-4c1a-b488-05368e4069c2")
+		(uuid "d5465476-a0e2-4c98-b3a4-4d587af4fad6")
 	)
 	(wire
 		(pts
-			(xy 81.28 102.87) (xy 81.28 74.93)
+			(xy 196.85 110.49) (xy 196.85 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8218d3b-e35b-4c65-af41-b57093c70422")
+		(uuid "e18ee49e-5c94-479b-8a4e-127cc5c98f5c")
 	)
 	(wire
 		(pts
-			(xy 120.65 120.65) (xy 120.65 123.19)
+			(xy 120.65 107.95) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8fe6414-ca2a-4c4b-ab30-da73a43337a9")
+		(uuid "e3d29a08-d4e1-4b6e-906b-5b9dc3f6b895")
 	)
 	(wire
 		(pts
-			(xy 199.39 87.63) (xy 193.04 87.63)
+			(xy 120.65 110.49) (xy 120.65 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1567158-eb9e-46f2-bccc-1c0cd61b1d17")
+		(uuid "eaabbaa9-b4d5-4267-ac8f-a169c99f099a")
 	)
 	(wire
 		(pts
-			(xy 196.85 90.17) (xy 196.85 102.87)
+			(xy 199.39 64.77) (xy 193.04 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7ff1dd9-2220-4cf9-8239-6f1a52ce878f")
+		(uuid "fdd52e01-203e-49b5-8336-43ef53530afc")
 	)
 	(wire
 		(pts
-			(xy 193.04 92.71) (xy 199.39 92.71)
+			(xy 160.02 72.39) (xy 160.02 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fae407f7-5e71-463f-85f5-c4909678b47e")
-	)
-	(global_label "PYRO3"
-		(shape output)
-		(at 142.24 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "022c1625-a6e8-417e-bfc5-cba35d399c8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.0862 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "ffdb4b59-0f42-4e4f-a7db-496f00b9e797")
 	)
 	(global_label "PYRO2"
 		(shape output)
-		(at 104.14 115.57 180)
+		(at 104.14 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1378,9 +1361,9 @@
 			)
 			(justify right)
 		)
-		(uuid "09a82328-9d9e-405c-a063-6cab67a186ca")
+		(uuid "3877fec7-320d-41ed-ad5f-c80084fcda8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9862 115.57 0)
+			(at 94.9862 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1394,7 +1377,7 @@
 	)
 	(global_label "PYRO4"
 		(shape output)
-		(at 181.61 115.57 180)
+		(at 181.61 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1402,9 +1385,9 @@
 			)
 			(justify right)
 		)
-		(uuid "4c8c1abb-1e9b-4889-ac7f-809bc190ff80")
+		(uuid "4e93f274-a374-4f41-b7f6-4a35f2fc7c81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.4562 115.57 0)
+			(at 172.4562 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1418,7 +1401,7 @@
 	)
 	(global_label "PYRO1"
 		(shape output)
-		(at 62.23 115.57 180)
+		(at 62.23 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1426,9 +1409,33 @@
 			)
 			(justify right)
 		)
-		(uuid "93911e0b-4acc-4cd5-80ce-167ba23c745c")
+		(uuid "bfdaab92-ef12-4c53-9c48-e396a9c4620c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.0762 115.57 0)
+			(at 53.0762 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PYRO3"
+		(shape output)
+		(at 142.24 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2ddef8a-39a0-4d11-b4e7-fcf34d26eac7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.0862 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1441,204 +1448,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 193.04 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20477f0a-5838-4ec0-8425-677b84a5b773")
-		(property "Reference" "#PWR024"
-			(at 193.04 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V/BP"
-			(at 189.484 67.564 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 193.04 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "53c1b632-d08b-4470-8d60-93610d9703ea")
-		)
-		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 118.11 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d0e8224-11de-4543-bb68-496cc3a12304")
-		(property "Reference" "Q2"
-			(at 123.19 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SD2537"
-			(at 123.19 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 181.61 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 181.61 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 118.11 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 118.11 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 118.11 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 118.11 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dce98d4f-7490-4dce-a645-97cfd3acf17b")
-		)
-		(pin "2"
-			(uuid "26ec989f-e51a-47b2-b4db-38b45aa8d70a")
-		)
-		(pin "3"
-			(uuid "98d80e77-b9b4-4c40-8bca-5af74dd69cb1")
-		)
-		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 196.85 106.68 0)
+		(at 120.65 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1647,9 +1458,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4baa1a28-c7e8-4b60-89f2-af7abb87cff0")
-		(property "Reference" "R6"
-			(at 199.39 105.4099 0)
+		(uuid "10523bbd-e703-48a3-8997-3a90fb5f9f1f")
+		(property "Reference" "R8"
+			(at 123.19 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1660,7 +1471,7 @@
 			)
 		)
 		(property "Value" "3.3"
-			(at 199.39 107.9499 0)
+			(at 123.19 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1671,7 +1482,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 195.072 106.68 90)
+			(at 118.872 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1682,7 +1493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 106.68 0)
+			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1693,7 +1504,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 196.85 106.68 0)
+			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1704,289 +1515,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c4cd7f73-7019-47a3-bc2e-eba64f0316fa")
+			(uuid "07fe1a48-7475-4ee2-b4da-d1b6b90cd839")
 		)
 		(pin "1"
-			(uuid "ff61e514-76b4-43c2-b76d-c3b85cbe054e")
+			(uuid "386aa28e-239e-4d7d-a53a-45f12adf85d2")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 196.85 130.81 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "518d19bf-4f77-4b2e-8415-932dc1ef76be")
-		(property "Reference" "#PWR023"
-			(at 196.85 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3d3a189-1f32-4c35-8b0d-e36d4aae5027")
-		)
-		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 194.31 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "535e12df-a140-435f-9233-60975f1b65c6")
-		(property "Reference" "Q4"
-			(at 199.39 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SD2537"
-			(at 199.39 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 257.81 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 257.81 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 194.31 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 194.31 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 194.31 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 194.31 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae3daa5e-5b47-481d-a4d3-b07a52e4f15a")
-		)
-		(pin "2"
-			(uuid "c1396c0f-09c3-40c7-921b-959a2cde36d2")
-		)
-		(pin "3"
-			(uuid "1ac004ea-c857-4aa6-9d49-206a4e75c401")
-		)
-		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 130.81 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "62947a94-ea48-4dae-b70f-7c77abb080aa")
-		(property "Reference" "#PWR022"
-			(at 160.02 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50ae273f-8abd-4e05-bae8-7f99fbfaaad3")
-		)
-		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "#PWR022")
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1994,7 +1531,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 115.57 270)
+		(at 185.42 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2002,9 +1539,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6b091c63-824a-4249-a9fd-ca88a4bb2910")
-		(property "Reference" "R12"
-			(at 146.304 120.904 0)
+		(uuid "1119678a-547c-4cfd-a200-b0bcedad60c9")
+		(property "Reference" "R13"
+			(at 183.134 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2015,7 +1552,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 148.844 120.904 0)
+			(at 185.674 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2026,7 +1563,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 113.792 90)
+			(at 185.42 101.092 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2037,7 +1574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 115.57 0)
+			(at 185.42 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2048,7 +1585,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 115.57 0)
+			(at 185.42 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2059,24 +1596,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c1802dd-4c31-4c43-bd11-1810b25dc134")
+			(uuid "88fc2030-30f3-4e4a-be2f-0c8baed82887")
 		)
 		(pin "2"
-			(uuid "296022f8-3059-4194-bf51-9323e2a247d1")
+			(uuid "bbb468ea-6f38-4af6-b63a-98a767f8ced2")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "R12")
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "R13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 81.28 130.81 0)
-		(mirror y)
+		(lib_id "Simulation_SPICE:NPN")
+		(at 194.31 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2084,9 +1620,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "70547484-a99e-49b4-ad4c-01629ddfa570")
-		(property "Reference" "#PWR020"
-			(at 81.28 137.16 0)
+		(fields_autoplaced yes)
+		(uuid "124060a8-f340-498b-9f46-5143af46a1f1")
+		(property "Reference" "Q4"
+			(at 199.39 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SD2537"
+			(at 199.39 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 257.81 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2096,8 +1655,9 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 81.28 135.89 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 257.81 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2106,8 +1666,104 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 81.28 130.81 0)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 194.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 194.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 194.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 194.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34fcbb82-0dd2-4f9a-82f5-4dc16c0b7199")
+		)
+		(pin "2"
+			(uuid "93964f8f-bac9-4219-a4ad-301f2416fc2e")
+		)
+		(pin "3"
+			(uuid "cfe5a96f-4615-4896-9c77-782ebea2ff88")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "233dbd29-a981-416c-80ac-a2f86444b108")
+		(property "Reference" "R6"
+			(at 199.39 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3"
+			(at 199.39 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 195.072 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2118,7 +1774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 130.81 0)
+			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2128,8 +1784,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 130.81 0)
+		(property "Description" "Resistor"
+			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2138,14 +1794,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "ff2e63f9-7762-49a3-9e08-147481ee4d52")
 		)
 		(pin "1"
-			(uuid "479d3e1e-9732-419e-9624-4028faece777")
+			(uuid "5f69c2d0-a02e-4d8b-bf12-c61c6777e0af")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "#PWR020")
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2153,7 +1812,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 116.84 123.19 270)
+		(at 116.84 110.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2161,9 +1820,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "710252ba-bfd8-4d2b-877f-b56e47a86acc")
+		(uuid "2a283c91-5cc9-4353-8345-2e4669123ae5")
 		(property "Reference" "R3"
-			(at 114.554 128.524 0)
+			(at 114.554 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2174,7 +1833,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 117.094 128.524 0)
+			(at 117.094 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2185,7 +1844,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.84 121.412 90)
+			(at 116.84 108.712 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2196,7 +1855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 123.19 0)
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2207,7 +1866,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 116.84 123.19 0)
+			(at 116.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2218,14 +1877,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "68e1b9db-bb80-4cb4-9be8-b84a4fafee26")
+			(uuid "2ae7406a-0e61-4b51-9f2b-fc90bc0aa9a0")
 		)
 		(pin "2"
-			(uuid "1e1f8c58-3cd4-4238-9f17-41bc1dfb86fd")
+			(uuid "d59e53c4-8595-4571-bb4c-d526e679fe55")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
 					(reference "R3")
 					(unit 1)
 				)
@@ -2234,7 +1893,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 185.42 115.57 270)
+		(at 77.47 110.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2242,290 +1901,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8257db4b-b6f9-400f-8951-77dd86fc9659")
-		(property "Reference" "R13"
-			(at 183.134 120.904 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220"
-			(at 185.674 120.904 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 185.42 113.792 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 185.42 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb35f926-d4e9-44e6-a272-66ee4b7db3a7")
-		)
-		(pin "2"
-			(uuid "5abc5ac1-b317-48cd-82e9-5fa9ac0853fd")
-		)
-		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bacacfe-d3d8-4cb5-89be-75f1ad015f75")
-		(property "Reference" "R8"
-			(at 123.19 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3"
-			(at 123.19 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 118.872 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6a836cb0-cf04-43ee-91b9-3658cc2afc6d")
-		)
-		(pin "1"
-			(uuid "cb23c83f-90d8-4f9a-b874-ab539c4df537")
-		)
-		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 78.74 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b48b75ac-7778-41dd-af94-457bd71f57e7")
-		(property "Reference" "Q1"
-			(at 83.82 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SD2537"
-			(at 83.82 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 142.24 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 142.24 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 78.74 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 78.74 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 78.74 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 78.74 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "836d8219-89a8-46fa-a089-1af98719b0c2")
-		)
-		(pin "2"
-			(uuid "3300865f-3a7b-430e-80ad-b39eaadf9e63")
-		)
-		(pin "3"
-			(uuid "72beb612-eaea-44dc-b731-b2ad5e36be8c")
-		)
-		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 123.19 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c0e8c2d5-f15c-4390-b7cc-92cf76a4a04c")
-		(property "Reference" "R5"
-			(at 190.754 128.524 0)
+		(uuid "38886f2a-7f55-42c4-9617-9c72114c4ccd")
+		(property "Reference" "R1"
+			(at 75.184 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2536,7 +1914,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 193.294 128.524 0)
+			(at 77.724 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2547,7 +1925,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 193.04 121.412 90)
+			(at 77.47 108.712 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2558,7 +1936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 123.19 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2569,7 +1947,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 123.19 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2580,24 +1958,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "b660e684-3a43-4aef-8e41-3713ac6f378b")
+			(uuid "c16e5d33-0357-44c3-bbfa-cfa5efd05b82")
 		)
 		(pin "2"
-			(uuid "2afec051-06bd-4b6c-847d-f6c01e8d92cb")
+			(uuid "536673b4-5f93-49b6-a05a-91e224749214")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "R5")
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 120.65 130.81 0)
-		(mirror y)
+		(lib_id "Simulation_SPICE:NPN")
+		(at 118.11 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2605,9 +1982,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c1a43dc5-0721-4ebb-89f1-18ca2241b0a4")
-		(property "Reference" "#PWR021"
-			(at 120.65 137.16 0)
+		(fields_autoplaced yes)
+		(uuid "415d3dd0-11cf-49ce-bf46-0ebf7048a364")
+		(property "Reference" "Q2"
+			(at 123.19 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SD2537"
+			(at 123.19 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 181.61 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2617,18 +2017,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 120.65 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 130.81 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 181.61 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2638,8 +2028,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 120.65 130.81 0)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 118.11 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2649,8 +2039,30 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 130.81 0)
+		(property "Sim.Device" "NPN"
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 118.11 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,12 +2073,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bebab35-c543-4019-815d-c7c85ec510a6")
+			(uuid "91b16dc8-6bee-45c0-9373-5673548c2911")
+		)
+		(pin "2"
+			(uuid "ac6c90ab-6aa7-4a5c-9ca9-b25e16f35215")
+		)
+		(pin "3"
+			(uuid "c023e0e8-4b94-4afe-891e-d3df17f43b13")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "#PWR021")
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2674,7 +2092,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 115.57 270)
+		(at 109.22 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2682,9 +2100,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c206685d-18e1-46c6-9531-795964e862b1")
+		(uuid "444ff4e3-f379-4131-b919-9e234a54100c")
 		(property "Reference" "R11"
-			(at 106.934 120.904 0)
+			(at 106.934 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2695,7 +2113,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 109.474 120.904 0)
+			(at 109.474 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2706,7 +2124,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 109.22 113.792 90)
+			(at 109.22 101.092 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2717,7 +2135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 115.57 0)
+			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2728,7 +2146,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 109.22 115.57 0)
+			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2739,14 +2157,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ad21865-dfe3-4b7b-a7f5-5b05e9081332")
+			(uuid "99e7529c-d6c3-4b9b-82c5-0dc05a0a82f3")
 		)
 		(pin "2"
-			(uuid "90c5e285-ddc3-4e09-b7d3-6ec37a546d31")
+			(uuid "5c5a1d53-a357-4f3b-bf14-7597d03d42c4")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
 					(reference "R11")
 					(unit 1)
 				)
@@ -2755,7 +2173,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 106.68 0)
+		(at 156.21 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44dd2980-53b4-4d50-8960-f2feadc6b9c5")
+		(property "Reference" "R4"
+			(at 153.924 115.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 156.464 115.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.21 108.712 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68741642-5fe6-442f-877d-ffaa51cde752")
+		)
+		(pin "2"
+			(uuid "afdeff94-a930-4f8a-a829-b894fa40d030")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2764,9 +2263,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c442e0bc-a73b-486c-a658-18917e88238c")
+		(uuid "5916d124-bcc0-4d34-8f43-0c6a7cd83b9a")
 		(property "Reference" "R7"
-			(at 162.56 105.4099 0)
+			(at 162.56 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2777,7 +2276,7 @@
 			)
 		)
 		(property "Value" "3.3"
-			(at 162.56 107.9499 0)
+			(at 162.56 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2788,7 +2287,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 158.242 106.68 90)
+			(at 158.242 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2799,7 +2298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 106.68 0)
+			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,7 +2309,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 106.68 0)
+			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2821,14 +2320,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "6b18b6b7-a826-4a9e-8a30-e8158843491b")
+			(uuid "82ed546f-0151-485d-acf5-37b8b8e30865")
 		)
 		(pin "1"
-			(uuid "67ee2c63-7247-4199-a6ad-29e60493b1d6")
+			(uuid "f4e7a765-d599-44af-bf5a-49e7426dda4f")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
 					(reference "R7")
 					(unit 1)
 				)
@@ -2836,8 +2335,86 @@
 		)
 	)
 	(symbol
-		(lib_id "TBL002A-350-08GY-2GY:TBL002A-350-08GY-2GY")
-		(at 209.55 82.55 0)
+		(lib_id "power:GND")
+		(at 160.02 118.11 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d08e50d-63ce-4e7f-bda3-3c89912337b5")
+		(property "Reference" "#PWR022"
+			(at 160.02 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f9b8dbc-97a8-4503-8543-8b54b329e719")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2846,9 +2423,91 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb0d08b0-da5e-46f0-aef5-34c2d1facc8e")
-		(property "Reference" "J5"
-			(at 215.9 82.5499 0)
+		(uuid "87d8c61a-418a-422d-9453-fd7dc06cf34d")
+		(property "Reference" "R9"
+			(at 83.82 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3"
+			(at 83.82 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 79.502 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f6092af9-6178-488e-ac39-35bcb1399bda")
+		)
+		(pin "1"
+			(uuid "5a2d639a-aabf-40da-afad-77baab5d79fa")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TBL002A-350-08GY-2GY:TBL002A-350-08GY-2GY")
+		(at 209.55 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "892aba5d-0234-4d2a-8dd1-9860372909b7")
+		(property "Reference" "J1"
+			(at 215.9 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2859,7 +2518,7 @@
 			)
 		)
 		(property "Value" "TBL002A-350-08GY-2GY"
-			(at 215.9 85.0899 0)
+			(at 215.9 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2870,7 +2529,7 @@
 			)
 		)
 		(property "Footprint" "TBL002A-350-08GY-2GY:CUI_TBL002A-350-08GY-2GY"
-			(at 209.55 82.55 0)
+			(at 209.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2882,7 +2541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 82.55 0)
+			(at 209.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2893,7 +2552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 82.55 0)
+			(at 209.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2904,7 +2563,7 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 209.55 82.55 0)
+			(at 209.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2916,7 +2575,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI Devices"
-			(at 209.55 82.55 0)
+			(at 209.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2928,7 +2587,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "12.85mm"
-			(at 209.55 82.55 0)
+			(at 209.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2940,7 +2599,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 209.55 82.55 0)
+			(at 209.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2952,41 +2611,42 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee401180-da03-47dc-8eac-ea7f2f109042")
+			(uuid "9a86c4d4-d5fb-41a1-8e2b-acafaed3a4f2")
 		)
 		(pin "4"
-			(uuid "aab7b410-9459-425f-a368-96ea047b3753")
+			(uuid "b57e9f04-e563-459f-8b6a-36c0874c597e")
 		)
 		(pin "5"
-			(uuid "b3e9e9bb-5672-4a30-8a47-68be780d7c83")
+			(uuid "06c7254d-d239-496c-a41c-671def2d0c9a")
 		)
 		(pin "6"
-			(uuid "6550c6fe-688a-4bd9-b41d-c621db92a9bf")
+			(uuid "04ed9d37-a029-4d3a-81b0-ada9834a485c")
 		)
 		(pin "7"
-			(uuid "76660b5c-54ed-4826-996d-ed25d2b8df0c")
+			(uuid "845df5dc-f63c-42e4-a569-3286247be827")
 		)
 		(pin "8"
-			(uuid "962a4264-7088-41ef-b2d4-f60c3189456d")
+			(uuid "b0542517-0555-48c7-9f4b-23029fc9f493")
 		)
 		(pin "2"
-			(uuid "a334b0bc-2bb5-4060-a8cc-b4c61adaba76")
+			(uuid "f1d16493-193f-4caf-aec5-0470690e94c1")
 		)
 		(pin "3"
-			(uuid "f7ff5933-fb0c-44f8-b910-5648a618b596")
+			(uuid "516548db-8544-4112-a972-c4280fd236ca")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "J5")
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 156.21 123.19 270)
+		(lib_id "power:GND")
+		(at 120.65 118.11 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2994,31 +2654,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dfeb51d1-c892-422f-bb65-a2a308d55b80")
-		(property "Reference" "R4"
-			(at 153.924 128.524 0)
+		(uuid "a375d0ad-9c4e-4d41-a456-3d53b4de4590")
+		(property "Reference" "#PWR021"
+			(at 120.65 124.46 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 156.464 128.524 0)
+		(property "Value" "GND"
+			(at 120.65 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 156.21 121.412 90)
+		(property "Footprint" ""
+			(at 120.65 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3029,7 +2688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 123.19 0)
+			(at 120.65 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,8 +2698,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 156.21 123.19 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3051,23 +2710,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "85ec5fbd-4eac-492c-b6c2-e13c27acd2e8")
-		)
-		(pin "2"
-			(uuid "c9ce3bb6-eda5-486a-9921-0ec73bd9ba40")
+			(uuid "4215d24e-816e-47ba-aa74-b6d8f8063635")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "R4")
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 81.28 106.68 0)
+		(lib_id "power:+3.3V")
+		(at 193.04 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3075,10 +2731,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8386655-eeae-401c-bcf8-f6f12000cc6e")
-		(property "Reference" "R9"
-			(at 83.82 105.4099 0)
+		(uuid "b109058e-a6d0-4936-9043-006745915b66")
+		(property "Reference" "#PWR024"
+			(at 193.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V/BP"
+			(at 189.484 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3088,19 +2754,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3"
-			(at 83.82 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 79.502 106.68 90)
+		(property "Footprint" ""
+			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3111,7 +2766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 106.68 0)
+			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3121,89 +2776,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "06808f5a-208d-4d0f-9d1f-935b22877a5e")
-		)
-		(pin "1"
-			(uuid "35ddcb93-c779-421f-923e-5b7b445f2730")
-		)
-		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 77.47 123.19 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eb04b766-50cb-454d-9123-ebc8cb0ea6e3")
-		(property "Reference" "R1"
-			(at 75.184 128.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 77.724 128.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 121.412 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 123.19 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3214,15 +2788,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d37c546-9096-4389-af34-04c187ed9af8")
-		)
-		(pin "2"
-			(uuid "b65bf1f2-7f45-4310-b126-84d487b6f217")
+			(uuid "1d1c0aad-994a-43af-b369-b07e775d70af")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
-					(reference "R1")
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3230,7 +2801,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NPN")
-		(at 157.48 115.57 0)
+		(at 157.48 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3239,9 +2810,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f0301d71-38b0-4e9c-9f04-79f7f43b52dc")
+		(uuid "bb9ce218-8beb-4ca5-97a3-61a8bbab049a")
 		(property "Reference" "Q3"
-			(at 162.56 114.2999 0)
+			(at 162.56 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3252,7 +2823,7 @@
 			)
 		)
 		(property "Value" "2SD2537"
-			(at 162.56 116.8399 0)
+			(at 162.56 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3263,7 +2834,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 220.98 115.57 0)
+			(at 220.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3274,7 +2845,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 220.98 115.57 0)
+			(at 220.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +2856,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 157.48 115.57 0)
+			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3296,7 +2867,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 157.48 115.57 0)
+			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3307,7 +2878,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 157.48 115.57 0)
+			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,7 +2889,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 157.48 115.57 0)
+			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3329,17 +2900,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cd2a3f6-72c0-4b34-96b7-d6c082beb4f9")
+			(uuid "9282ab34-1aec-4133-9b73-7aad921bc1c3")
 		)
 		(pin "2"
-			(uuid "2d642124-5ef7-4558-a2ee-790ca2ebc671")
+			(uuid "04356888-9276-4994-8b80-487ce5a547e7")
 		)
 		(pin "3"
-			(uuid "33bb9fdb-b9fa-4f52-b4a0-ee6def0f34fd")
+			(uuid "e5f58736-fdf3-4a83-b4ee-f469cca0412a")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
 					(reference "Q3")
 					(unit 1)
 				)
@@ -3348,7 +2919,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 115.57 270)
+		(at 67.31 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3356,9 +2927,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fe2c2a6e-f837-40c1-9c07-3a6dec9ec920")
+		(uuid "d187e9f8-f44e-409b-8b59-7349f5f46460")
 		(property "Reference" "R10"
-			(at 65.024 120.904 0)
+			(at 65.024 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3369,7 +2940,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 67.564 120.904 0)
+			(at 67.564 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3380,7 +2951,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.31 113.792 90)
+			(at 67.31 101.092 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3391,7 +2962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 115.57 0)
+			(at 67.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3402,7 +2973,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 115.57 0)
+			(at 67.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3413,15 +2984,451 @@
 			)
 		)
 		(pin "1"
-			(uuid "938ca952-c335-4dff-97ef-be5c91f83121")
+			(uuid "f37ec743-dd88-447a-adb6-b8630f6212e4")
 		)
 		(pin "2"
-			(uuid "632fa2b6-34fb-4e66-ae8f-d444f45b7f9d")
+			(uuid "c8684972-b165-443f-9f14-aa4833990d86")
 		)
 		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/28e6bd3b-1e4a-4501-ae8d-2a37e1612c06"
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 118.11 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d354a723-ad00-46b6-925d-0271e69c9778")
+		(property "Reference" "#PWR023"
+			(at 196.85 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "942ce426-278c-49d3-b3c8-f6d6b8f612cc")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 78.74 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3661b2d-ec36-4d47-a12f-a7b3bb1a9909")
+		(property "Reference" "Q1"
+			(at 83.82 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SD2537"
+			(at 83.82 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 142.24 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 142.24 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 78.74 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 78.74 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 78.74 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 78.74 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1568087f-61d3-4d7c-a39d-fc986acca1e9")
+		)
+		(pin "2"
+			(uuid "5f77af98-5598-4ed9-aa2b-5fe0c40e4ca7")
+		)
+		(pin "3"
+			(uuid "c8b24c44-251b-4c69-ad36-3ea6621af31e")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd4a1e3f-9fb6-4ab8-a1b6-8625c385a7b8")
+		(property "Reference" "R12"
+			(at 146.304 108.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 148.844 108.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.59 101.092 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec504f4c-b443-47c0-b712-81e393bc7c7f")
+		)
+		(pin "2"
+			(uuid "d50f165b-41f5-4c40-8c76-f32314b6191b")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 118.11 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e53cfa90-eb4a-461a-9c91-e333fa82d7d1")
+		(property "Reference" "#PWR020"
+			(at 81.28 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efcbf465-4616-4fbf-bb4e-46f4c934ad38")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f70cce60-ff6d-4776-b67f-05d588b05421")
+		(property "Reference" "R5"
+			(at 190.754 115.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 193.294 115.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 193.04 108.712 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "315f4c8c-730e-4af3-b70a-89948e58f388")
+		)
+		(pin "2"
+			(uuid "b284eb92-2d6f-4116-8f21-e1539b6ee103")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/c8bb074a-0458-43c1-977b-030263589620"
+					(reference "R5")
 					(unit 1)
 				)
 			)
