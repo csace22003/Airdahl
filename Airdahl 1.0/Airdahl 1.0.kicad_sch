@@ -3018,13 +3018,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized_US"
+		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3042,7 +3041,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized_US"
+			(property "Value" "C"
 				(at 0.635 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3054,7 +3053,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0.9652 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3075,7 +3074,7 @@
 					)
 				)
 			)
-			(property "Description" "Polarized capacitor, US symbol"
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3097,7 +3096,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "CP_*"
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3108,7 +3107,7 @@
 					)
 				)
 			)
-			(symbol "C_Polarized_US_0_1"
+			(symbol "C_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -3123,32 +3122,8 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -3158,7 +3133,7 @@
 					)
 				)
 			)
-			(symbol "C_Polarized_US_1_1"
+			(symbol "C_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -3179,7 +3154,7 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 3.302)
+					(length 2.794)
 					(name ""
 						(effects
 							(font
@@ -7041,6 +7016,12 @@
 		(uuid "70681c4a-b1a0-439d-872a-adedf65b85b6")
 	)
 	(junction
+		(at 110.49 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7509a31f-720e-472e-9c7b-b56178f408da")
+	)
+	(junction
 		(at 207.01 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7087,12 +7068,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a284e8ad-cb09-470f-8f9e-5643f3ddad9d")
-	)
-	(junction
-		(at 139.7 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5564dbb-1124-4e64-b163-99a2fca7df96")
 	)
 	(junction
 		(at 245.11 91.44)
@@ -7155,16 +7130,16 @@
 		(uuid "e0da79b7-87ab-4fcc-940e-2c0c669dfcd2")
 	)
 	(junction
+		(at 139.7 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea9d2637-b607-4d0c-9892-2377cb26628e")
+	)
+	(junction
 		(at 311.15 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee29d773-f4e6-4035-b211-acb635dbfff5")
-	)
-	(junction
-		(at 110.49 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f25ca8ae-b1d8-484a-966d-d2f58539e3bc")
 	)
 	(junction
 		(at 328.93 91.44)
@@ -8270,6 +8245,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 77.47) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8377ad6f-e88b-4224-a010-a68a04a593a9")
+	)
+	(wire
+		(pts
 			(xy 278.13 82.55) (xy 278.13 83.82)
 		)
 		(stroke
@@ -8820,7 +8805,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 77.47) (xy 114.3 77.47)
+			(xy 88.9 77.47) (xy 110.49 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8947,16 +8932,6 @@
 			(type default)
 		)
 		(uuid "f732f0b7-393e-4ea2-87d4-3ff2011c8dff")
-	)
-	(wire
-		(pts
-			(xy 88.9 77.47) (xy 110.49 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f788ebf9-38c4-4bdd-9ff9-872955ce57b1")
 	)
 	(wire
 		(pts
@@ -11824,7 +11799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
+		(lib_id "Device:C")
 		(at 139.7 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -11833,9 +11808,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "64fac0a1-b2d0-4e71-885d-f3dca12ddb3c")
+		(uuid "64c20d95-a312-4972-9444-90a2c63152c0")
 		(property "Reference" "C2"
-			(at 143.51 79.3749 0)
+			(at 143.51 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11845,8 +11820,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u TANT"
-			(at 143.51 81.9149 0)
+		(property "Value" "10u"
+			(at 143.51 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11856,8 +11831,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 139.7 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 140.6652 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11878,7 +11853,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 139.7 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11890,10 +11865,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6c9859da-dfbb-49a5-8b0e-9b387a9f51ac")
+			(uuid "40760699-14fe-450a-9e13-4d44915ae8ea")
 		)
 		(pin "1"
-			(uuid "f81e999e-aa4b-451c-a742-41e0d74855db")
+			(uuid "5c9d3f09-f829-46ad-9291-edf74eaaf6d8")
 		)
 		(instances
 			(project "Airdahl 1.0"
@@ -12295,6 +12270,88 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 81.28 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bda6419-db1d-46a6-9ceb-c648a0b8948f")
+		(property "Reference" "C1"
+			(at 106.68 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 106.68 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 109.5248 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba3f7f3b-e704-448f-a614-9b063b6fd947")
+		)
+		(pin "1"
+			(uuid "e4ebebfd-68dc-485a-b834-86e59532cf30")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -15047,88 +15104,6 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 110.49 81.28 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d36647fa-a9b7-4506-8791-2f4e01961adb")
-		(property "Reference" "C1"
-			(at 106.68 79.3749 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u TANT"
-			(at 106.68 81.9149 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 110.49 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 110.49 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6a9d3ea7-a4bb-466b-a7e9-044261d877e7")
-		)
-		(pin "1"
-			(uuid "9c1be6ec-ae36-4d59-bdaa-ef42222b3c1e")
-		)
-		(instances
-			(project "Airdahl 1.0"
-				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
-					(reference "C1")
 					(unit 1)
 				)
 			)
