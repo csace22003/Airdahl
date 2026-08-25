@@ -17392,7 +17392,7 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "USB_3V3"
 			(at 111.76 31.242 0)
 			(show_name no)
 			(do_not_autoplace no)
