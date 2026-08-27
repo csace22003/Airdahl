@@ -1138,7 +1138,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SDM40E20LC_7:SDM40E20LC-7"
+		(symbol "RB496EATR:RB496EATR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1147,8 +1147,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CR"
-				(at 20.32 10.16 0)
+			(property "Reference" "D"
+				(at 15.24 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1157,8 +1157,8 @@
 					)
 				)
 			)
-			(property "Value" "SDM40E20LC-7"
-				(at 20.32 7.62 0)
+			(property "Value" "RB496EATR"
+				(at 15.24 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1167,7 +1167,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOT-23_DIO"
+			(property "Footprint" "DIO_FTZ_ROM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1179,7 +1179,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "SDM40E20LC-7"
+			(property "Datasheet" "RB496EATR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1212,7 +1212,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SDM40E20LC-7"
+			(property "ki_keywords" "RB496EATR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1223,7 +1223,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT-23_DIO SOT-23_DIO-M SOT-23_DIO-L"
+			(property "ki_fp_filters" "DIO_FTZ_ROM DIO_FTZ_ROM-M DIO_FTZ_ROM-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1234,10 +1234,10 @@
 					)
 				)
 			)
-			(symbol "SDM40E20LC-7_0_1"
+			(symbol "RB496EATR_0_1"
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
+						(xy 7.62 2.54) (xy 7.62 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -1249,7 +1249,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -7.62) (xy 33.02 -7.62)
+						(xy 7.62 0) (xy 22.86 0)
 					)
 					(stroke
 						(width 0.127)
@@ -1261,7 +1261,7 @@
 				)
 				(polyline
 					(pts
-						(xy 19.558 0.762) (xy 21.082 0)
+						(xy 7.62 -10.16) (xy 22.86 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -1273,7 +1273,7 @@
 				)
 				(polyline
 					(pts
-						(xy 19.558 0) (xy 7.62 0)
+						(xy 7.62 -12.7) (xy 22.86 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -1285,7 +1285,19 @@
 				)
 				(polyline
 					(pts
-						(xy 19.558 -0.762) (xy 19.558 0.762)
+						(xy 13.97 1.27) (xy 13.97 -1.27) (xy 16.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -1.27) (xy 13.97 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -1297,7 +1309,7 @@
 				)
 				(polyline
 					(pts
-						(xy 19.558 -1.778) (xy 21.082 -2.54)
+						(xy 13.97 -1.27) (xy 16.51 0)
 					)
 					(stroke
 						(width 0.127)
@@ -1309,7 +1321,7 @@
 				)
 				(polyline
 					(pts
-						(xy 19.558 -2.54) (xy 7.62 -2.54)
+						(xy 13.97 -8.89) (xy 13.97 -11.43)
 					)
 					(stroke
 						(width 0.127)
@@ -1321,7 +1333,7 @@
 				)
 				(polyline
 					(pts
-						(xy 19.558 -3.302) (xy 19.558 -1.778)
+						(xy 13.97 -8.89) (xy 16.51 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -1333,7 +1345,19 @@
 				)
 				(polyline
 					(pts
-						(xy 21.082 0.762) (xy 21.082 -0.762)
+						(xy 13.97 -8.89) (xy 13.97 -11.43) (xy 16.51 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -11.43) (xy 16.51 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -1345,7 +1369,7 @@
 				)
 				(polyline
 					(pts
-						(xy 21.082 0) (xy 19.558 -0.762)
+						(xy 16.51 1.27) (xy 16.51 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -1357,7 +1381,7 @@
 				)
 				(polyline
 					(pts
-						(xy 21.082 -1.778) (xy 21.082 -3.302)
+						(xy 16.51 0) (xy 13.97 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -1369,7 +1393,7 @@
 				)
 				(polyline
 					(pts
-						(xy 21.082 -2.54) (xy 19.558 -3.302)
+						(xy 16.51 -8.89) (xy 16.51 -11.43)
 					)
 					(stroke
 						(width 0.127)
@@ -1381,30 +1405,7 @@
 				)
 				(polyline
 					(pts
-						(xy 27.94 0) (xy 27.94 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 27.94 0)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 27.94 -2.54) (xy 21.082 -2.54)
+						(xy 22.86 2.54) (xy 7.62 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -1416,31 +1417,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 0) (xy 21.082 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -7.62) (xy 33.02 5.08)
+						(xy 22.86 -12.7) (xy 22.86 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -1451,9 +1428,29 @@
 					)
 				)
 				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RB496EATR_1_1"
+				(pin unspecified line
 					(at 0 0 0)
 					(length 7.62)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1469,16 +1466,16 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -2.54 0)
+					(at 0 -10.16 0)
 					(length 7.62)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1487,16 +1484,34 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 0 180)
+					(at 30.48 -10.16 180)
 					(length 7.62)
-					(name "3"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2664,6 +2679,12 @@
 		(uuid "61eb80c0-acb1-46f7-955a-0be675d3bcfc")
 	)
 	(junction
+		(at 86.36 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71cb9664-2ea2-489d-a1bb-3c0ffde8fd68")
+	)
+	(junction
 		(at 124.46 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2718,6 +2739,10 @@
 		(uuid "f1c89ddc-4f97-4f67-9e6a-366bf2557470")
 	)
 	(no_connect
+		(at 55.88 86.36)
+		(uuid "178ec40b-af72-42b4-97e5-8605c8c73314")
+	)
+	(no_connect
 		(at 93.98 88.9)
 		(uuid "585ea038-957f-4886-8fef-88b27cb27bbe")
 	)
@@ -2730,6 +2755,16 @@
 			(type default)
 		)
 		(uuid "049128d7-d6eb-4eaa-b208-1faf6a7c6aba")
+	)
+	(wire
+		(pts
+			(xy 52.07 91.44) (xy 55.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d8680a-9eeb-484a-94b4-d7d7de645f9b")
 	)
 	(wire
 		(pts
@@ -2823,6 +2858,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 83.82) (xy 52.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f876754-6203-44dc-9fac-2ed422f80df2")
+	)
+	(wire
+		(pts
 			(xy 92.71 170.18) (xy 92.71 172.72)
 		)
 		(stroke
@@ -2863,13 +2908,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 81.28) (xy 93.98 81.28)
+			(xy 86.36 81.28) (xy 93.98 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cfee5e5-5dd1-4007-ac8b-89b9a4bbcd02")
+		(uuid "4d2635ef-e927-4004-82b1-5ee86f2bc4f1")
 	)
 	(wire
 		(pts
@@ -2910,6 +2955,16 @@
 			(type default)
 		)
 		(uuid "61a6907c-e6b0-4158-acaf-ab3628f9d9f6")
+	)
+	(wire
+		(pts
+			(xy 86.36 81.28) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b447e9-1123-4d75-9574-dc18bc9fb1b1")
 	)
 	(wire
 		(pts
@@ -3123,7 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 81.28) (xy 52.07 81.28)
+			(xy 50.8 81.28) (xy 55.88 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4890,91 +4945,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SDM40E20LC_7:SDM40E20LC-7")
-		(at 52.07 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72db4b81-5a8c-40a1-ba67-23c785cd730d")
-		(property "Reference" "CR1"
-			(at 72.39 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SDM40E20LC-7"
-			(at 72.39 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOT-23_DIO"
-			(at 52.07 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "SDM40E20LC-7"
-			(at 52.07 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "45b5e3e8-3a3c-420d-968d-b8bb8976eb15")
-		)
-		(pin "1"
-			(uuid "55cbb975-ab54-48cb-a0b4-2af55fa97cef")
-		)
-		(pin "2"
-			(uuid "ecfb0a86-b8ad-403f-a4b4-455ab513fd36")
-		)
-		(instances
-			(project "PCE-RCE Carrier"
-				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/b13c5c10-72c7-47f9-aac2-179cc68eb567"
-					(reference "CR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 180.34 0)
 		(mirror y)
@@ -5047,6 +5017,97 @@
 			(project "PCE-RCE Carrier"
 				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/b13c5c10-72c7-47f9-aac2-179cc68eb567"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RB496EATR:RB496EATR")
+		(at 55.88 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8212e013-3a38-42f6-b58f-06f1ce6cd6d1")
+		(property "Reference" "D1"
+			(at 71.12 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "RB496EATR"
+			(at 71.12 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DIO_FTZ_ROM"
+			(at 55.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "RB496EATR"
+			(at 55.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "d40f6eb9-ef40-4203-a3f7-370ada5ed27e")
+		)
+		(pin "2"
+			(uuid "ed44c629-5e45-4662-980c-3c7a1dfd1142")
+		)
+		(pin "1"
+			(uuid "4a1c5176-eadf-4dbe-ad59-62b9750946e1")
+		)
+		(pin "3"
+			(uuid "e92620cd-dacc-4863-a26d-01acdfb76756")
+		)
+		(pin "4"
+			(uuid "016ee3ad-525d-41ff-8255-a6bf1f777b52")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/b13c5c10-72c7-47f9-aac2-179cc68eb567"
+					(reference "D1")
 					(unit 1)
 				)
 			)
