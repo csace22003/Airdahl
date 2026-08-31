@@ -416,7 +416,7 @@
         "uuid": "bfe3df76-cf57-4896-b2fe-4558db46d4af"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-2,R1-3,R16,R23,L2,J2-4,D1-2,C1-6,C11,#PWR1-8,#PWR14-18,#PWR20,#PWR32-33,#PWR66,#PWR77-79",
     "variants": []
   },
   "sheets": [
@@ -431,6 +431,10 @@
     [
       "29b02be0-a59d-4720-b06f-4af67a127491",
       "Breakout Components"
+    ],
+    [
+      "497d9892-a157-4672-9afa-72c9479fbe95",
+      "Power Distribution"
     ]
   ],
   "text_variables": {},

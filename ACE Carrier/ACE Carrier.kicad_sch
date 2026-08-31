@@ -2102,7 +2102,7 @@
 		)
 	)
 	(sheet
-		(at 210.82 113.03)
+		(at 186.69 85.09)
 		(size 34.29 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2118,7 +2118,7 @@
 		)
 		(uuid "29b02be0-a59d-4720-b06f-4af67a127491")
 		(property "Sheetname" "Breakout Components"
-			(at 210.82 112.3184 0)
+			(at 186.69 84.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2129,7 +2129,7 @@
 			)
 		)
 		(property "Sheetfile" "breakout.kicad_sch"
-			(at 210.82 127.5846 0)
+			(at 186.69 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2148,7 +2148,7 @@
 		)
 	)
 	(sheet
-		(at 210.82 82.55)
+		(at 186.69 54.61)
 		(size 34.29 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2164,7 +2164,7 @@
 		)
 		(uuid "39fde03a-e919-4eee-91c1-78b2108c2c3f")
 		(property "Sheetname" "Airbrakes Sensors"
-			(at 210.82 81.8384 0)
+			(at 186.69 53.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2175,7 +2175,7 @@
 			)
 		)
 		(property "Sheetfile" "airbrakes_sensors.kicad_sch"
-			(at 210.82 98.3746 0)
+			(at 186.69 70.4346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2189,6 +2189,52 @@
 			(project "ACE Carrier"
 				(path "/bfe3df76-cf57-4896-b2fe-4558db46d4af"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 110.49)
+		(size 34.29 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "497d9892-a157-4672-9afa-72c9479fbe95")
+		(property "Sheetname" "Power Distribution"
+			(at 186.69 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 186.69 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ACE Carrier"
+				(path "/bfe3df76-cf57-4896-b2fe-4558db46d4af"
+					(page "4")
 				)
 			)
 		)
