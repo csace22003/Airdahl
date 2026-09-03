@@ -7426,6 +7426,16 @@
 		)
 		(uuid "a1e2802b-e0dc-43d7-9d11-06d0cf93baa6")
 	)
+	(text "*place filtering caps close to adc pin"
+		(exclude_from_sim no)
+		(at 209.55 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9b0c3b0-c75c-4322-81a2-80125ea1b465")
+	)
 	(text "OR-ing circuit with buck converter. Slight drop because schottky diode"
 		(exclude_from_sim no)
 		(at 137.414 26.162 0)
@@ -8358,7 +8368,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 125.73) (xy 227.33 125.73)
+			(xy 209.55 125.73) (xy 227.33 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8608,7 +8618,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 113.03) (xy 200.66 113.03)
+			(xy 227.33 113.03) (xy 196.85 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8768,7 +8778,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 135.89) (xy 195.58 135.89)
+			(xy 196.85 135.89) (xy 195.58 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8798,7 +8808,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 113.03) (xy 200.66 135.89)
+			(xy 196.85 113.03) (xy 196.85 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9025,6 +9035,16 @@
 			(type default)
 		)
 		(uuid "6b138171-eba3-4730-8401-d3f541f6f421")
+	)
+	(wire
+		(pts
+			(xy 199.39 123.19) (xy 227.33 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c845016-07a4-49bb-9f5e-607ec45d586b")
 	)
 	(wire
 		(pts
@@ -9868,16 +9888,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 123.19) (xy 227.33 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb42cb1d-5b62-4b6b-a216-e5218926f508")
-	)
-	(wire
-		(pts
 			(xy 250.19 91.44) (xy 247.65 91.44)
 		)
 		(stroke
@@ -10205,6 +10215,16 @@
 			(type default)
 		)
 		(uuid "eacbd9bb-b16a-42ce-a06a-3c74f0952646")
+	)
+	(wire
+		(pts
+			(xy 199.39 125.73) (xy 199.39 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd58369-3ca2-49ac-a3f1-e799c8df3219")
 	)
 	(wire
 		(pts
@@ -10747,7 +10767,7 @@
 		(uuid "40184023-ea7b-4dec-ba86-e65915b231bf")
 	)
 	(label "PITOT_SGL"
-		(at 217.17 123.19 0)
+		(at 199.39 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11007,7 +11027,7 @@
 		(uuid "79576672-01ee-4f1a-88ce-8a771f72b7c3")
 	)
 	(label "PAYLOAD_A"
-		(at 217.17 125.73 0)
+		(at 209.55 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13483,6 +13503,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 209.55 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a3f90fd-471c-4fc4-82d0-09bedba6712a")
+		(property "Reference" "#PWR017"
+			(at 209.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa86b3d0-6451-4d98-a399-8a08401b63b0")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 328.93 87.63 0)
 		(unit 1)
@@ -14943,6 +15041,84 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "648b1e41-692f-4c53-a3e7-2852f289eedf")
+		(property "Reference" "#PWR016"
+			(at 199.39 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5be7551-212a-4016-b5e0-1d7f035d5647")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18255,6 +18431,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 209.55 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c654c8c8-07c6-4eeb-8231-eee98c73b3be")
+		(property "Reference" "C39"
+			(at 212.09 127.0062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 212.09 129.5462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 209.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 209.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e08f458-4d97-4175-a3cd-05143c7f6b40")
+		)
+		(pin "2"
+			(uuid "3718788a-2836-403b-9211-aa0c69de8d23")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 219.71 143.51 270)
 		(mirror x)
@@ -18567,6 +18825,88 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 199.39 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1894f43-d27c-4139-a374-19477b51e924")
+		(property "Reference" "C38"
+			(at 201.93 127.0062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 201.93 129.5462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 199.39 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 199.39 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61c4b951-2c53-4abf-ba8d-27b7d8b084e7")
+		)
+		(pin "2"
+			(uuid "e9ad08ef-06a7-4aec-8c82-31774b3e9e38")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "C38")
 					(unit 1)
 				)
 			)
