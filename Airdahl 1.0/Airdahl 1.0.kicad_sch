@@ -10506,7 +10506,7 @@
 		)
 		(uuid "7d1bbf8e-5465-43f0-b050-b9de88259ffc")
 	)
-	(label "CS_RFM"
+	(label "SPI_CS"
 		(at 88.9 236.22 180)
 		(effects
 			(font

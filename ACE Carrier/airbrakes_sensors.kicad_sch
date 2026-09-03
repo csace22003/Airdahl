@@ -1472,12 +1472,6 @@
 		(uuid "4b2fdaef-657e-43d6-9d4c-b4389b8945e1")
 	)
 	(junction
-		(at 196.85 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6672edb0-1642-481f-baa7-6814348284e1")
-	)
-	(junction
 		(at 107.95 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1489,6 +1483,12 @@
 		(color 0 0 0 0)
 		(uuid "ab0a1cb6-433e-44d1-ae20-cac676d7bd79")
 	)
+	(junction
+		(at 196.85 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea1f6404-c6de-4a5d-b556-bb7e1e6695a2")
+	)
 	(no_connect
 		(at 39.37 58.42)
 		(uuid "5438fcd8-e709-4060-a8e6-6d983bd1199e")
@@ -1499,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 82.55) (xy 209.55 82.55)
+			(xy 196.85 82.55) (xy 201.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1699,7 +1699,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 55.88) (xy 99.06 55.88)
+			(xy 90.17 55.88) (xy 96.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1739,7 +1739,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 58.42) (xy 99.06 58.42)
+			(xy 90.17 58.42) (xy 96.52 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1777,19 +1777,31 @@
 		)
 		(uuid "2799e3c9-9e0b-41c1-adde-ae00fe0baea8")
 	)
-	(label "PITOT_SIGNAL"
-		(at 209.55 82.55 180)
+	(hierarchical_label "PITOT_SIGNAL"
+		(shape output)
+		(at 201.93 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "27e0cffb-af87-4070-ad85-5e0db607347a")
+		(uuid "5b74c915-afd3-4773-8743-4e9547d19b10")
+	)
+	(hierarchical_label "ADXL_INT2"
+		(shape output)
+		(at 90.17 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f2fd074-443a-459d-8942-ba357f37746e")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 99.06 55.88 0)
+		(at 96.52 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1800,7 +1812,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 99.06 58.42 0)
+		(at 96.52 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1808,6 +1820,17 @@
 			(justify left)
 		)
 		(uuid "ce04279f-818a-46bb-8ce9-9d19738721d6")
+	)
+	(hierarchical_label "ADXL_INT1"
+		(shape output)
+		(at 90.17 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f099fc21-cbc9-4d8a-acc7-189a24691467")
 	)
 	(symbol
 		(lib_id "power:+5V")

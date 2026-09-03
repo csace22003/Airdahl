@@ -1404,7 +1404,7 @@
 		(uuid "ee33ff8b-a3ac-4d62-a1d9-5a2558e96836")
 	)
 	(hierarchical_label "MISO"
-		(shape input)
+		(shape output)
 		(at 132.08 113.03 0)
 		(effects
 			(font
@@ -1415,7 +1415,7 @@
 		(uuid "0f62c450-9acf-4a38-90af-708e5aeb0951")
 	)
 	(hierarchical_label "SCL"
-		(shape output)
+		(shape input)
 		(at 139.7 64.77 0)
 		(effects
 			(font
@@ -1425,8 +1425,8 @@
 		)
 		(uuid "2aa39250-cad5-467b-b652-54075633b4d0")
 	)
-	(hierarchical_label "CS_RFM"
-		(shape output)
+	(hierarchical_label "SPI_CS"
+		(shape input)
 		(at 132.08 115.57 0)
 		(effects
 			(font
@@ -1437,7 +1437,7 @@
 		(uuid "364b8fb1-ffb3-4bd7-b527-8a9719d59ec1")
 	)
 	(hierarchical_label "SCLK"
-		(shape output)
+		(shape input)
 		(at 132.08 118.11 0)
 		(effects
 			(font
@@ -1459,7 +1459,7 @@
 		(uuid "ca7c65ae-7c71-4441-b3c3-2d0f042a3082")
 	)
 	(hierarchical_label "MOSI"
-		(shape output)
+		(shape input)
 		(at 132.08 110.49 0)
 		(effects
 			(font

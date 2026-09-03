@@ -1403,7 +1403,7 @@
 		)
 		(uuid "bb12afc5-0d12-48e1-8402-164ea22e008b")
 	)
-	(hierarchical_label "CS_RFM"
+	(hierarchical_label "SPI_CS"
 		(shape output)
 		(at 116.84 109.22 0)
 		(effects
