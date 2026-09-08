@@ -7091,6 +7091,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -7455,6 +7594,16 @@
 			)
 		)
 		(uuid "c98a312e-3eb2-4888-9007-c7755aa2c5e5")
+	)
+	(text "*PB2\n=BOOT1"
+		(exclude_from_sim no)
+		(at 286.512 148.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5421c36-4e78-40fd-9a95-954504967b01")
 	)
 	(text "V_REG on carrier boards"
 		(exclude_from_sim no)
@@ -9388,16 +9537,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 251.46) (xy 92.71 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cca914b-c904-41e2-b9f5-65b1422cca28")
-	)
-	(wire
-		(pts
 			(xy 204.47 148.59) (xy 217.17 148.59)
 		)
 		(stroke
@@ -10198,6 +10337,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 226.06) (xy 69.85 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a09068-837f-4bfb-a4e7-2ea8dd2ce2d7")
+	)
+	(wire
+		(pts
 			(xy 281.94 168.91) (xy 267.97 168.91)
 		)
 		(stroke
@@ -10526,16 +10675,6 @@
 		)
 		(uuid "071ece36-dd91-4bf7-ae19-1992917647c0")
 	)
-	(label "CD"
-		(at 81.28 251.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08245a5e-a753-4dc4-a0a8-1b59695bab76")
-	)
 	(label "PC4"
 		(at 69.85 248.92 180)
 		(effects
@@ -10586,7 +10725,7 @@
 		)
 		(uuid "109ccd3f-a8d8-4fa3-b6db-0f2d7c2c974c")
 	)
-	(label "PB1"
+	(label "PAYLOAD_2R"
 		(at 281.94 146.05 180)
 		(effects
 			(font
@@ -10685,16 +10824,6 @@
 			(justify right bottom)
 		)
 		(uuid "2ff84331-6c14-4fa8-aeda-f8786e188236")
-	)
-	(label "V_REG"
-		(at 25.4 233.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30176993-3485-407d-a4f1-00ca7101c88e")
 	)
 	(label "PA1"
 		(at 281.94 102.87 180)
@@ -10806,6 +10935,16 @@
 		)
 		(uuid "461b1c32-0218-4e4d-8985-d2ecbf950c74")
 	)
+	(label "PAYLOAD_A"
+		(at 69.85 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46bd2194-0f35-4b5c-bbf1-c56fffeeb5a3")
+	)
 	(label "BOOT0"
 		(at 207.01 229.87 180)
 		(effects
@@ -10836,7 +10975,7 @@
 		)
 		(uuid "4b7d48b4-ca33-4c59-964e-f96e5a91f0d5")
 	)
-	(label "PB0"
+	(label "PAYLOAD_2F"
 		(at 281.94 143.51 180)
 		(effects
 			(font
@@ -10856,7 +10995,7 @@
 		)
 		(uuid "4f46c2a4-1393-48dd-ba46-cb52bc0e776f")
 	)
-	(label "PAYLOAD_1"
+	(label "PAYLOAD_1F"
 		(at 81.28 246.38 0)
 		(effects
 			(font
@@ -10865,16 +11004,6 @@
 			(justify left bottom)
 		)
 		(uuid "4fe3e838-1bef-459a-add6-c7136d858742")
-	)
-	(label "PAYLOAD_2"
-		(at 281.94 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5581542a-2138-4bb9-83e1-b529e3d88abc")
 	)
 	(label "BNO_INT"
 		(at 304.8 130.81 0)
@@ -10915,6 +11044,16 @@
 			(justify right bottom)
 		)
 		(uuid "5ad183f0-b11e-4857-82d2-9c9ca892f6ea")
+	)
+	(label "PB2"
+		(at 281.94 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f9fcaac-00d5-455f-b229-2e38160f02e9")
 	)
 	(label "ADXL_INT1"
 		(at 69.85 264.16 180)
@@ -10995,16 +11134,6 @@
 			(justify left bottom)
 		)
 		(uuid "742d32fd-18e3-4e5e-bd3a-dc1edff63917")
-	)
-	(label "V_REG"
-		(at 161.29 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "764730fe-971a-49e8-9ed2-a1049d33fe93")
 	)
 	(label "PA3"
 		(at 69.85 246.38 180)
@@ -11206,7 +11335,7 @@
 		)
 		(uuid "b4e17c56-bcc8-4b35-9f66-fa578b51f4ce")
 	)
-	(label "PAYLOAD_2"
+	(label "PAYLOAD_1R"
 		(at 81.28 248.92 0)
 		(effects
 			(font
@@ -11236,17 +11365,7 @@
 		)
 		(uuid "bb6ee283-12ca-4e08-9d4b-9ddf9416336a")
 	)
-	(label "V_REG"
-		(at 128.27 233.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bcb2291c-d258-4524-9854-3f4380525215")
-	)
-	(label "PAYLOAD_1"
+	(label "PAYLOAD_1F"
 		(at 281.94 123.19 180)
 		(effects
 			(font
@@ -11416,7 +11535,7 @@
 		)
 		(uuid "e0e38910-b18e-4657-b167-3b4039da8775")
 	)
-	(label "PB1"
+	(label "PAYLOAD_2R"
 		(at 24.13 261.62 0)
 		(effects
 			(font
@@ -11506,7 +11625,7 @@
 		)
 		(uuid "f21c1be2-3624-4e31-bbab-a244b8da4b91")
 	)
-	(label "UART_RX"
+	(label "PAYLOAD_1R"
 		(at 281.94 125.73 180)
 		(effects
 			(font
@@ -11556,7 +11675,7 @@
 		)
 		(uuid "f7d3c7e8-d0e6-4be5-9a51-09a3e87878c3")
 	)
-	(label "PB0"
+	(label "PAYLOAD_2F"
 		(at 24.13 264.16 0)
 		(effects
 			(font
@@ -11994,6 +12113,84 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 25.4 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bf1afa7-8c5c-4720-932f-e5a62214afd9")
+		(property "Reference" "#PWR068"
+			(at 25.4 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_REG"
+			(at 20.828 228.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 25.4 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75f84f8f-4829-4daf-bf24-06050a961f35")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -15277,6 +15474,162 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 161.29 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67579112-1ce6-4066-9b85-8a5cf10abe2e")
+		(property "Reference" "#PWR066"
+			(at 161.29 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_REG"
+			(at 156.464 32.512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e038ac2e-81c7-4dec-9b90-4d0c06ad6819")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 128.27 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6915d74a-e9b3-4254-b6e5-3c047c7d41a5")
+		(property "Reference" "#PWR067"
+			(at 128.27 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_REG"
+			(at 123.698 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 128.27 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1884a90-e14c-4959-86c6-8e8131ecbfc0")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)

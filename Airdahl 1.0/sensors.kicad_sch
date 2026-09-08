@@ -2409,6 +2409,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RFM95W-915S2:RFM95W-915S2"
 			(pin_names
 				(offset 1.016)
@@ -3795,7 +3936,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 102.87) (xy 219.71 102.87)
+			(xy 210.82 102.87) (xy 219.71 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4005,7 +4146,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 100.33) (xy 219.71 100.33)
+			(xy 210.82 100.33) (xy 219.71 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4092,16 +4233,6 @@
 			(type default)
 		)
 		(uuid "8e62a195-4d30-4c64-a5e3-67c784569188")
-	)
-	(wire
-		(pts
-			(xy 218.44 97.79) (xy 219.71 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fbe9f58-a64c-4510-b1e6-6db6a16d96d1")
 	)
 	(wire
 		(pts
@@ -4375,6 +4506,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 97.79) (xy 219.71 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95445ff-a396-4a96-a169-3c47a151804b")
+	)
+	(wire
+		(pts
 			(xy 96.52 48.26) (xy 111.76 48.26)
 		)
 		(stroke
@@ -4527,7 +4668,7 @@
 	)
 	(hierarchical_label "SCLK"
 		(shape input)
-		(at 218.44 100.33 180)
+		(at 210.82 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4615,7 +4756,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape output)
-		(at 218.44 97.79 180)
+		(at 210.82 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4714,7 +4855,7 @@
 	)
 	(hierarchical_label "CS_RFM"
 		(shape input)
-		(at 218.44 102.87 180)
+		(at 210.82 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9927,6 +10068,86 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/bd752d91-9d5e-4749-819a-1163586784de"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 213.36 97.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fda6a7fe-2ee1-4376-a5ae-aa109736ae51")
+		(property "Reference" "R63"
+			(at 217.678 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 213.36 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 213.36 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 213.36 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66725d0c-7ee2-4f85-ac82-b2489a64bf26")
+		)
+		(pin "1"
+			(uuid "c0b66b9f-d839-4999-a0d5-79e161b1a924")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/bd752d91-9d5e-4749-819a-1163586784de"
+					(reference "R63")
 					(unit 1)
 				)
 			)
