@@ -2830,6 +2830,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Find lower fwd voltage schottky diode"
+		(exclude_from_sim no)
+		(at 262.128 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ac0205d-e5dd-411e-b81b-4e738e5fb3f7")
+	)
 	(text "3V3 Buck"
 		(exclude_from_sim no)
 		(at 62.738 106.172 0)
