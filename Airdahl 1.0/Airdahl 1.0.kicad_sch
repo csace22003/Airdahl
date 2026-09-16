@@ -7525,12 +7525,13 @@
 		)
 		(uuid "4d0eaf56-087a-4632-882e-977f8dbc40aa")
 	)
-	(text "Put UART_RX on MCU pin, make sure it's UART1\nMake sure it's RX -> TX, TX -> RX\nFind new Payload Reverse\nMake SPI daisy-chained\none more pyro channel\nHIGH: find a lower fwd voltage schottky diode\nbonus: battery charge indicator\n"
+	(text "X Put UART_RX on MCU pin, make sure it's UART1\nX Make sure it's RX -> TX, TX -> RX\nX Find new Payload Reverse IO\nFind more IO's for SPI CS\nX one more pyro channel\nHIGH: find a lower fwd voltage schottky diode\nbonus: battery charge indicator\n"
 		(exclude_from_sim no)
 		(at 368.808 203.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(italic yes)
 			)
 		)
 		(uuid "4e43919f-1e16-4535-8c57-05a175115ff5")
@@ -10837,16 +10838,6 @@
 		)
 		(uuid "071ece36-dd91-4bf7-ae19-1992917647c0")
 	)
-	(label "PC4"
-		(at 69.85 248.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08c50d14-e3ba-4d48-ba8f-2fd7545b682e")
-	)
 	(label "SPI_CS"
 		(at 309.88 110.49 0)
 		(effects
@@ -10967,16 +10958,6 @@
 		)
 		(uuid "262070c2-62e2-457a-bc40-7d12dabf818b")
 	)
-	(label "PB5"
-		(at 311.15 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2edd4abd-7e7a-4507-8ff6-9409bb9cf8fa")
-	)
 	(label "CD"
 		(at 311.15 161.29 180)
 		(effects
@@ -11056,16 +11037,6 @@
 			(justify right bottom)
 		)
 		(uuid "3fdc2863-923b-45b3-b730-0e1db73d61cc")
-	)
-	(label "PB15"
-		(at 311.15 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40184023-ea7b-4dec-ba86-e65915b231bf")
 	)
 	(label "PITOT_SGL"
 		(at 228.6 123.19 0)
@@ -11246,6 +11217,16 @@
 			(justify left bottom)
 		)
 		(uuid "626723d1-7e79-4640-9edd-dfe782b4ca67")
+	)
+	(label "PAYLOAD_1R"
+		(at 311.15 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63d32285-8fdf-4d6f-bc8e-3c813ecfe633")
 	)
 	(label "DEBUG_LED"
 		(at 271.78 223.52 0)
@@ -11657,6 +11638,16 @@
 		)
 		(uuid "dbab9e8a-893f-4741-8378-97e3cad8d20b")
 	)
+	(label "PYRO_5"
+		(at 69.85 248.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc09deb2-ade5-4f06-8403-27646005c487")
+	)
 	(label "RST_RFM"
 		(at 334.01 123.19 0)
 		(effects
@@ -11837,6 +11828,16 @@
 		)
 		(uuid "f7d3c7e8-d0e6-4be5-9a51-09a3e87878c3")
 	)
+	(label ""
+		(at 370.84 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8603243-4844-496a-86f8-4fdf1baa639c")
+	)
 	(label "PAYLOAD_2F"
 		(at 24.13 264.16 0)
 		(effects
@@ -11846,6 +11847,16 @@
 			(justify left bottom)
 		)
 		(uuid "f9f1a309-9d63-4389-acab-b105c5890a77")
+	)
+	(label "PYRO_5"
+		(at 311.15 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "facda242-a83d-4e7a-bb32-11a87f725ba7")
 	)
 	(label "SDIO_CMD"
 		(at 233.68 118.11 0)
@@ -12473,7 +12484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ABM3B-8.000MHZ-12-D1X-T:XTAL_ABM3B-8.000MHZ-12-D1X-T"
+		(property "Footprint" "ABM3B_8_000MHZ_12_D1X_T:XTAL_ABM3B-8.000MHZ-12-D1X-T"
 			(at 212.09 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13627,7 +13638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 228.6 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -17005,7 +17016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 228.6 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -18554,7 +18565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ABS25-32.768KHZ-6-T:XTAL_ABS25-32.768KHZ-6-T"
+		(property "Footprint" "ABS25_32_768KHZ_6_T:XTAL_ABS25-32.768KHZ-6-T"
 			(at 226.06 165.1 0)
 			(hide yes)
 			(show_name no)
