@@ -1723,7 +1723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_BM04B-SRSS-TB_SPK"
+		(property "Footprint" "I2C_Qwiic_Conn:CONN_BM04B-SRSS-TB_SPK"
 			(at 135.89 64.77 0)
 			(hide yes)
 			(show_name no)

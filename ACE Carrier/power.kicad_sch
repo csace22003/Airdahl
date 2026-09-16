@@ -7061,7 +7061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIO_FTZ_ROM"
+		(property "Footprint" "RB496EATR:DIO_FTZ_ROM"
 			(at 204.47 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7550,7 +7550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIO_FTZ_ROM"
+		(property "Footprint" "RB496EATR:DIO_FTZ_ROM"
 			(at 59.69 63.5 0)
 			(hide yes)
 			(show_name no)
