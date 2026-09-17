@@ -512,13 +512,38 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.315,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/USB_D_N": [
+        "USB Data"
+      ],
+      "/USB_D_P": [
+        "USB Data"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -661,7 +686,7 @@
         "uuid": "e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW2-3",
     "variants": []
   },
   "sheets": [
