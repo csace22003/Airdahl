@@ -3435,6 +3435,12 @@
 		(uuid "1e13f77f-1e0d-49cb-bd7c-d2a435152a10")
 	)
 	(junction
+		(at 137.16 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21492afd-7046-43f6-b4e5-17c8145effd2")
+	)
+	(junction
 		(at 118.11 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3517,6 +3523,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acc83455-1da8-4f84-80e3-afdb02fe5e7a")
+	)
+	(junction
+		(at 137.16 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c25b8f9e-e2ca-4ef4-b60d-be735839996c")
 	)
 	(junction
 		(at 124.46 184.15)
@@ -3726,6 +3738,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 48.26) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2167a5c0-8d78-40dd-8699-8780d85f9600")
+	)
+	(wire
+		(pts
 			(xy 119.38 163.83) (xy 135.89 163.83)
 		)
 		(stroke
@@ -3913,6 +3935,16 @@
 			(type default)
 		)
 		(uuid "4953edb8-12f7-4c1d-9037-71f6776b1257")
+	)
+	(wire
+		(pts
+			(xy 124.46 40.64) (xy 137.16 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4faa7172-4f4a-47af-98c8-f9308d3765f7")
 	)
 	(wire
 		(pts
@@ -4276,16 +4308,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 39.37) (xy 124.46 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "941e2282-801e-47a3-bbb1-75732671e341")
-	)
-	(wire
-		(pts
 			(xy 124.46 67.31) (xy 110.49 67.31)
 		)
 		(stroke
@@ -4313,6 +4335,16 @@
 			(type default)
 		)
 		(uuid "986005f5-11c0-406c-b391-1c7976518ff3")
+	)
+	(wire
+		(pts
+			(xy 137.16 39.37) (xy 137.16 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f831d8-a665-45dc-a66c-84412ead7af3")
 	)
 	(wire
 		(pts
@@ -5312,7 +5344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10u"
 			(at 274.32 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6686,7 +6718,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 124.46 39.37 0)
+		(at 137.16 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6697,7 +6729,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a40a94c-7a49-46c3-b075-4bc5ffe5c286")
 		(property "Reference" "#PWR070"
-			(at 124.46 43.18 0)
+			(at 137.16 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6708,7 +6740,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.46 34.29 0)
+			(at 137.16 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6718,7 +6750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 39.37 0)
+			(at 137.16 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6729,7 +6761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 39.37 0)
+			(at 137.16 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6740,7 +6772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.46 39.37 0)
+			(at 137.16 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8974,7 +9006,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 48.26 0)
+		(at 137.16 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8985,7 +9017,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf8e2be3-52e9-4710-99f3-d57aaf709379")
 		(property "Reference" "#PWR071"
-			(at 124.46 54.61 0)
+			(at 137.16 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8996,7 +9028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 53.34 0)
+			(at 137.16 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9006,7 +9038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 48.26 0)
+			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9017,7 +9049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 48.26 0)
+			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +9060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 48.26 0)
+			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9309,7 +9341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 128.27 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9320,7 +9352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 125.4252 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10098,6 +10130,87 @@
 			(project "Airdahl 1.0"
 				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/bd752d91-9d5e-4749-819a-1163586784de"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd4b1257-7bb1-4062-bb3b-3c20b6126259")
+		(property "Reference" "C18"
+			(at 141.732 43.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 140.97 46.482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 138.1252 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e48745e6-6ed4-49af-b70d-06410436d1ff")
+		)
+		(pin "2"
+			(uuid "6dc26b05-49a7-4b68-8b40-ef159e211a80")
+		)
+		(instances
+			(project "Airdahl 1.0"
+				(path "/e2c992a5-0f37-48ff-88a4-7c40cfcda45e/bd752d91-9d5e-4749-819a-1163586784de"
+					(reference "C18")
 					(unit 1)
 				)
 			)

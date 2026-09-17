@@ -9794,6 +9794,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 123.19) (xy 228.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a901f359-7261-468b-851f-901d9abf7e4e")
+	)
+	(wire
+		(pts
 			(xy 334.01 152.4) (xy 344.17 152.4)
 		)
 		(stroke
@@ -10414,16 +10424,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 125.73) (xy 228.6 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebd58369-3ca2-49ac-a3f1-e799c8df3219")
-	)
-	(wire
-		(pts
 			(xy 233.68 118.11) (xy 246.38 118.11)
 		)
 		(stroke
@@ -10933,7 +10933,7 @@
 		(uuid "404fcec6-749e-4670-8596-22037bf06204")
 	)
 	(label "PITOT_SGL"
-		(at 228.6 123.19 0)
+		(at 238.76 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11232,7 +11232,7 @@
 		)
 		(uuid "8127fc24-e53f-4ff9-bf4f-a8487a5eaed0")
 	)
-	(label "PA15"
+	(label "D0_RFM"
 		(at 311.15 138.43 180)
 		(effects
 			(font
@@ -11488,7 +11488,7 @@
 			)
 		)
 	)
-	(label "PB6"
+	(label "BMP_INT"
 		(at 311.15 158.75 180)
 		(effects
 			(font
@@ -11518,7 +11518,7 @@
 		)
 		(uuid "c708111c-8cc9-417b-86cb-fc7764a46536")
 	)
-	(label "PA12"
+	(label "RST_RFM"
 		(at 311.15 130.81 180)
 		(effects
 			(font
@@ -11800,7 +11800,7 @@
 			(justify left bottom)
 		)
 		(uuid "43892cc9-94b7-47d6-9ed1-da82057097df")
-		(property "Netclass" "USB Data"
+		(property "Net Class" "USB Data"
 			(at 74.3585 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11835,7 +11835,7 @@
 			(justify left bottom)
 		)
 		(uuid "bc4cd917-4966-4c32-9cc7-5ebb798f413d")
-		(property "Netclass" "USB Data"
+		(property "Net Class" "USB Data"
 			(at 66.7385 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
