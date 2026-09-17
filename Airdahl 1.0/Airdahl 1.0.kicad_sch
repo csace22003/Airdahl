@@ -10872,7 +10872,7 @@
 		)
 		(uuid "2f463192-53b7-4dc8-9116-e680a7079158")
 	)
-	(label "PA1"
+	(label "BNO_RST"
 		(at 311.15 102.87 180)
 		(effects
 			(font
@@ -11365,7 +11365,7 @@
 		)
 		(uuid "a9180b61-2adb-495c-8032-9b3cac161d69")
 	)
-	(label "PA2"
+	(label "BNO_INT"
 		(at 311.15 105.41 180)
 		(effects
 			(font
