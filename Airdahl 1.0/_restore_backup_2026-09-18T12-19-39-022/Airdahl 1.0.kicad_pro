@@ -517,7 +517,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.3,
+        "diff_pair_width": 0.315,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -686,7 +686,7 @@
         "uuid": "e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
       }
     ],
-    "used_designators": "#PWR22,SW2-3",
+    "used_designators": "C18,SW2-3",
     "variants": []
   },
   "sheets": [
