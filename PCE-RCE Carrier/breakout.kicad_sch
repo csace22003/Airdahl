@@ -1416,16 +1416,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 106.68) (xy 121.92 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29850b61-8371-41e4-bb89-b08400b4ee0f")
-	)
-	(wire
-		(pts
 			(xy 135.89 63.5) (xy 135.89 62.23)
 		)
 		(stroke
@@ -1486,16 +1476,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 104.14) (xy 113.03 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "808dfeee-4f15-491b-b1e5-c9ad378f1b55")
-	)
-	(wire
-		(pts
 			(xy 135.89 66.04) (xy 135.89 67.31)
 		)
 		(stroke
@@ -1513,6 +1493,26 @@
 			(type default)
 		)
 		(uuid "9b5c09c5-5005-420f-a415-dba359c0537e")
+	)
+	(wire
+		(pts
+			(xy 118.11 104.14) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd9be72-7985-4af1-80a7-ef9db75e79f6")
+	)
+	(wire
+		(pts
+			(xy 121.92 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ce8cf5-f651-4973-81a9-6b99a4de44d4")
 	)
 	(wire
 		(pts
@@ -1577,17 +1577,6 @@
 		)
 		(uuid "752a2443-5c3f-4571-ae1d-f4def390f36f")
 	)
-	(hierarchical_label "MISO"
-		(shape output)
-		(at 121.92 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a154f10a-6951-4303-938b-273738454fd3")
-	)
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 121.92 111.76 0)
@@ -1601,6 +1590,17 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
+		(at 121.92 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2ae592e-79db-4eff-8133-e487bf1af9eb")
+	)
+	(hierarchical_label "MISO"
+		(shape output)
 		(at 121.92 104.14 0)
 		(effects
 			(font
@@ -1608,7 +1608,7 @@
 			)
 			(justify left)
 		)
-		(uuid "af4687fc-bbb4-4930-98eb-e6e7e367bd71")
+		(uuid "db35acae-7925-4f8f-b14e-8621fcb62f06")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
@@ -1776,86 +1776,6 @@
 			(project "PCE-RCE Carrier"
 				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/daaafe79-7dd1-4848-b9a2-db9d0b779713"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 115.57 106.68 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5167f149-89da-4545-b9bd-1dc22fb9012b")
-		(property "Reference" "R42"
-			(at 119.888 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 115.57 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 115.57 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 115.57 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3fdb8c3d-003f-47e2-9ac4-d848ee14414c")
-		)
-		(pin "1"
-			(uuid "5f4c2064-2683-47d7-af3e-6d6666c787c5")
-		)
-		(instances
-			(project "PCE-RCE Carrier"
-				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/daaafe79-7dd1-4848-b9a2-db9d0b779713"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2104,6 +2024,86 @@
 			(project "PCE-RCE Carrier"
 				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/daaafe79-7dd1-4848-b9a2-db9d0b779713"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 115.57 104.14 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e00f433-0e72-4a92-95c2-ae01a716c891")
+		(property "Reference" "R42"
+			(at 119.888 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 115.57 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 115.57 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb929b24-b3e2-4351-adcb-a9319f0a3a66")
+		)
+		(pin "1"
+			(uuid "6c5b1f6b-0150-447c-b402-3b5f46b04534")
+		)
+		(instances
+			(project "PCE-RCE Carrier"
+				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/daaafe79-7dd1-4848-b9a2-db9d0b779713"
+					(reference "R42")
 					(unit 1)
 				)
 			)

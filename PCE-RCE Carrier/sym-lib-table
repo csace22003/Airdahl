@@ -9,4 +9,5 @@
 	(lib (name "DF40C-34DP-0.4V_58_") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/DF40C-34DP-0.4V_58_/DF40C-34DP-0.4V_58_.kicad_sym") (options "") (descr ""))
 	(lib (name "RB496EATR") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/RB496EATR/RB496EATR.kicad_sym") (options "") (descr ""))
 	(lib (name "XT30PW-M") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT30PW-M/XT30PW-M.kicad_sym") (options "") (descr ""))
+	(lib (name "XT30UPB-M") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT30UPB-M/XT30UPB-M.kicad_sym") (options "") (descr ""))
 )

@@ -1476,13 +1476,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 113.03) (xy 137.16 113.03)
+			(xy 133.35 110.49) (xy 137.16 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3a2a149-3151-42ec-bd6d-b24bb2e017f8")
+		(uuid "bf777999-9ac4-41c6-9a95-0b67e0dc19f0")
 	)
 	(wire
 		(pts
@@ -1493,16 +1493,6 @@
 			(type default)
 		)
 		(uuid "c136226a-4061-47f0-a290-660042a52863")
-	)
-	(wire
-		(pts
-			(xy 137.16 110.49) (xy 128.27 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7411638-3679-4b5f-88ff-e22473836142")
 	)
 	(wire
 		(pts
@@ -1544,8 +1534,18 @@
 		)
 		(uuid "ee33ff8b-a3ac-4d62-a1d9-5a2558e96836")
 	)
-	(hierarchical_label "MISO"
-		(shape output)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 128.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcea387e-d5ab-4b1e-ae44-035725d5d200")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
 		(at 137.16 113.03 0)
 		(effects
 			(font
@@ -1553,7 +1553,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0f62c450-9acf-4a38-90af-708e5aeb0951")
+		(uuid "07e9fe10-a99f-4c0e-95f4-f83524b11432")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -1599,8 +1599,8 @@
 		)
 		(uuid "ca7c65ae-7c71-4441-b3c3-2d0f042a3082")
 	)
-	(hierarchical_label "MOSI"
-		(shape input)
+	(hierarchical_label "MISO"
+		(shape output)
 		(at 137.16 110.49 0)
 		(effects
 			(font
@@ -1608,7 +1608,7 @@
 			)
 			(justify left)
 		)
-		(uuid "dbe7eec6-8e5a-40c8-a247-783c3849204b")
+		(uuid "ff967507-e2c1-4d2f-867c-5ce789f382a6")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2109,7 +2109,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 130.81 113.03 270)
+		(at 130.81 110.49 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2118,9 +2118,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f43fb8eb-6e9e-4ab2-8fcd-019cfe252bf1")
+		(uuid "e79467d8-031f-4084-bc2b-b0ef1a7f0338")
 		(property "Reference" "R47"
-			(at 135.128 113.03 90)
+			(at 135.128 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2130,7 +2130,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 130.81 113.03 90)
+			(at 130.81 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2140,7 +2140,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 130.81 113.03 0)
+			(at 130.81 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,7 +2151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 113.03 0)
+			(at 130.81 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2162,7 +2162,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 130.81 113.03 0)
+			(at 130.81 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2173,10 +2173,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3e273e0f-0bb0-4416-ba44-17d0a487a0ac")
+			(uuid "98e6752e-f1c3-482f-9223-1db04d48e225")
 		)
 		(pin "1"
-			(uuid "2eba1b44-ad52-4d7a-9b6a-9ed02efd88c2")
+			(uuid "466175bc-c4d6-4a45-833c-f5c25241c1f4")
 		)
 		(instances
 			(project "ACE Carrier"

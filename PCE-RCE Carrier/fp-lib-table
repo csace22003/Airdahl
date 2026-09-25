@@ -6,6 +6,7 @@
 	(lib (name "TBL002A-350-08GY-2GY") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TBL002A-350-08GY-2GY") (options "") (descr ""))
 	(lib (name "TPS54302DDCR") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TPS54302DDCR") (options "") (descr ""))
 	(lib (name "TPS75533KTTRG3") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TPS75533KTTRG3/footprints.pretty") (options "") (descr ""))
-	(lib (name "XT30PW-M") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT30PW-M") (options "") (descr ""))
 	(lib (name "XT60PW-F") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT60PW-F") (options "") (descr ""))
+	(lib (name "XT30PW-M") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT30PW-M") (options "") (descr ""))
+	(lib (name "XT30UPB-M") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT30UPB-M") (options "") (descr ""))
 )
