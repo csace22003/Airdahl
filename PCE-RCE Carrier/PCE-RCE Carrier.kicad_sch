@@ -3587,9 +3587,9 @@
 				(justify left top)
 			)
 		)
-		(pin "PYRO1" input
+		(pin "PYRO_1" input
 			(at 187.96 91.44 180)
-			(uuid "492a4ca1-b629-470f-b1bd-dc1bd289e2db")
+			(uuid "fd05255d-976b-45ea-877f-322d7a6ccfd9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,9 +3597,9 @@
 				(justify left)
 			)
 		)
-		(pin "PYRO2" input
+		(pin "PYRO_2" input
 			(at 187.96 93.98 180)
-			(uuid "d2878d22-e175-4d5a-a61e-90e5ecebe4a4")
+			(uuid "2c5608c4-08a5-46de-ae02-5c01bbcb3723")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,9 +3607,9 @@
 				(justify left)
 			)
 		)
-		(pin "PYRO3" input
+		(pin "PYRO_3" input
 			(at 187.96 96.52 180)
-			(uuid "013ebdd5-93f5-4c6e-9d4d-c3990f2d296f")
+			(uuid "75b6d99e-b93b-48d0-bea5-68751e66ffb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,9 +3617,9 @@
 				(justify left)
 			)
 		)
-		(pin "PYRO4" input
+		(pin "PYRO_4" input
 			(at 187.96 99.06 180)
-			(uuid "5331cc8a-9cca-483c-a1f3-980015a1989c")
+			(uuid "bcaeed34-a0d6-4abb-84a3-3d2ee51cf53b")
 			(effects
 				(font
 					(size 1.27 1.27)

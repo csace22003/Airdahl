@@ -1138,390 +1138,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RB496EATR:RB496EATR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 15.24 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "RB496EATR"
-				(at 15.24 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "DIO_FTZ_ROM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "RB496EATR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RB496EATR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DIO_FTZ_ROM DIO_FTZ_ROM-M DIO_FTZ_ROM-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RB496EATR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 22.86 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 22.86 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -12.7) (xy 22.86 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 1.27) (xy 13.97 -1.27) (xy 16.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -1.27) (xy 13.97 1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -1.27) (xy 16.51 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -8.89) (xy 13.97 -11.43)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -8.89) (xy 16.51 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -8.89) (xy 13.97 -11.43) (xy 16.51 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -11.43) (xy 16.51 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 1.27) (xy 16.51 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 0) (xy 13.97 1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 -8.89) (xy 16.51 -11.43)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -12.7) (xy 22.86 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "N/C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RB496EATR_1_1"
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 30.48 -10.16 180)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 30.48 0 180)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Switching:LMR51430"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3231,7 +2847,7 @@
 	)
 	(text "VBAT + Arming Switch"
 		(exclude_from_sim no)
-		(at 77.47 69.088 0)
+		(at 76.454 74.676 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3241,7 +2857,7 @@
 	)
 	(text "switch"
 		(exclude_from_sim no)
-		(at 103.378 89.408 0)
+		(at 97.028 81.788 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3280,7 +2896,7 @@
 		(uuid "4d0d07b7-8ef4-48b9-9683-ec80f2dd6391")
 	)
 	(junction
-		(at 46.99 91.44)
+		(at 63.5 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51daef59-f66a-4288-ab50-beee217a66b9")
@@ -3302,12 +2918,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65da3226-e6e3-4c43-8d15-2f0a01a026e6")
-	)
-	(junction
-		(at 86.36 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71cb9664-2ea2-489d-a1bb-3c0ffde8fd68")
 	)
 	(junction
 		(at 226.06 46.99)
@@ -3406,12 +3016,6 @@
 		(uuid "dacf5d6e-de12-4fa5-854f-5d5e6b1ac036")
 	)
 	(junction
-		(at 46.99 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea37fda4-85e4-4518-a376-696d103aff4e")
-	)
-	(junction
 		(at 242.57 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3436,11 +3040,7 @@
 		(uuid "fc879d92-54a1-4261-a884-f347824badcb")
 	)
 	(no_connect
-		(at 55.88 99.06)
-		(uuid "178ec40b-af72-42b4-97e5-8605c8c73314")
-	)
-	(no_connect
-		(at 93.98 101.6)
+		(at 87.63 93.98)
 		(uuid "585ea038-957f-4886-8fef-88b27cb27bbe")
 	)
 	(wire
@@ -3452,16 +3052,6 @@
 			(type default)
 		)
 		(uuid "01bffbd4-0acd-4911-8ab1-019fa7781ec2")
-	)
-	(wire
-		(pts
-			(xy 46.99 104.14) (xy 55.88 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05d8680a-9eeb-484a-94b4-d7d7de645f9b")
 	)
 	(wire
 		(pts
@@ -3665,16 +3255,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 93.98) (xy 93.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d2635ef-e927-4004-82b1-5ee86f2bc4f1")
-	)
-	(wire
-		(pts
 			(xy 252.73 142.24) (xy 254 142.24)
 		)
 		(stroke
@@ -3732,26 +3312,6 @@
 			(type default)
 		)
 		(uuid "61a6907c-e6b0-4158-acaf-ab3628f9d9f6")
-	)
-	(wire
-		(pts
-			(xy 46.99 106.68) (xy 46.99 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62a464fc-1977-4eab-81fc-f7b1eb221d16")
-	)
-	(wire
-		(pts
-			(xy 86.36 93.98) (xy 86.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b447e9-1123-4d75-9574-dc18bc9fb1b1")
 	)
 	(wire
 		(pts
@@ -3985,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 99.06) (xy 93.98 99.06)
+			(xy 83.82 91.44) (xy 87.63 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +3655,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 91.44) (xy 46.99 93.98)
+			(xy 63.5 93.98) (xy 63.5 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4105,23 +3665,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 86.36) (xy 46.99 91.44)
+			(xy 63.5 88.9) (xy 63.5 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc8eee8a-e0e4-498a-a442-fd697600eb4a")
-	)
-	(wire
-		(pts
-			(xy 53.34 93.98) (xy 55.88 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd565dbd-8355-4881-ab4f-c5b83118d17c")
 	)
 	(wire
 		(pts
@@ -4225,16 +3775,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 111.76) (xy 46.99 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa2bbbd-d40c-470e-adb7-d44ca6120ab6")
-	)
-	(wire
-		(pts
 			(xy 226.06 66.04) (xy 227.33 66.04)
 		)
 		(stroke
@@ -4255,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 83.82) (xy 53.34 83.82)
+			(xy 63.5 86.36) (xy 87.63 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4265,7 +3805,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 93.98 96.52)
+			(xy 87.63 91.44) (xy 87.63 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4282,16 +3822,6 @@
 			(type default)
 		)
 		(uuid "fca2a29e-5cd9-475f-8b01-d6236900fb4d")
-	)
-	(wire
-		(pts
-			(xy 53.34 83.82) (xy 53.34 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb4f00b-74b5-433d-a436-278af9176131")
 	)
 	(label "3V7_LIPO"
 		(at 69.85 36.83 0)
@@ -4383,18 +3913,8 @@
 		)
 		(uuid "cb586a90-0e3d-4756-a780-912cff66b431")
 	)
-	(label "VBAT2"
-		(at 53.34 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "de0a7ec5-5f21-4b8c-be5b-dbe4e07110d1")
-	)
-	(label "VBAT1"
-		(at 53.34 83.82 180)
+	(label "VBAT"
+		(at 69.85 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5256,240 +4776,6 @@
 		)
 	)
 	(symbol
-		(lib_id "XT60PW-F:XT60PW-F")
-		(at 36.83 106.68 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22ce90cb-8ceb-42ea-a775-e78cb6fe9a69")
-		(property "Reference" "J3"
-			(at 30.48 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT60PW-F"
-			(at 30.48 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "XT60PW-F:AMASS_XT60PW-F"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "AMASS"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Package"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=eda"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "V1.2"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=snap"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "XT60PW-F"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Connector: DC supply; socket; female; XT60; 30A; 500V; PIN: 2; THT"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "AMASS"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "S2"
-			(uuid "1f7ba1c5-a85d-4ba3-8867-ddb62d67c867")
-		)
-		(pin "2"
-			(uuid "fc6d8d9b-c0ad-45ca-8cdf-c99ad9327414")
-		)
-		(pin "S1"
-			(uuid "5789d2f4-b03a-438e-bd47-1c4cdc572981")
-		)
-		(pin "1"
-			(uuid "2f78fb24-02c0-45c2-a530-a5498ccfa8cf")
-		)
-		(instances
-			(project "PCE-RCE Carrier"
-				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/b13c5c10-72c7-47f9-aac2-179cc68eb567"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 97.79 157.48 0)
 		(mirror y)
@@ -6286,7 +5572,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 93.98 0)
+		(at 63.5 96.52 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6298,7 +5584,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d3c3293-5c8b-4377-b8a1-8d0b07ee39ae")
 		(property "Reference" "#PWR015"
-			(at 46.99 100.33 0)
+			(at 63.5 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6309,7 +5595,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 99.06 0)
+			(at 63.5 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6319,7 +5605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 93.98 0)
+			(at 63.5 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6330,7 +5616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 93.98 0)
+			(at 63.5 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6341,7 +5627,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 93.98 0)
+			(at 63.5 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6385,7 +5671,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "49.9k"
+		(property "Value" "49.9"
 			(at 102.362 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,99 +6696,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RB496EATR:RB496EATR")
-		(at 55.88 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8212e013-3a38-42f6-b58f-06f1ce6cd6d1")
-		(property "Reference" "D1"
-			(at 71.12 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "RB496EATR"
-			(at 71.12 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DIO_FTZ_ROM"
-			(at 55.88 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "RB496EATR"
-			(at 55.88 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "d40f6eb9-ef40-4203-a3f7-370ada5ed27e")
-		)
-		(pin "2"
-			(uuid "ed44c629-5e45-4662-980c-3c7a1dfd1142")
-		)
-		(pin "1"
-			(uuid "4a1c5176-eadf-4dbe-ad59-62b9750946e1")
-		)
-		(pin "3"
-			(uuid "e92620cd-dacc-4863-a26d-01acdfb76756")
-		)
-		(pin "4"
-			(uuid "016ee3ad-525d-41ff-8255-a6bf1f777b52")
-		)
-		(instances
-			(project "PCE-RCE Carrier"
-				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/b13c5c10-72c7-47f9-aac2-179cc68eb567"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "XT60PW-F:XT60PW-F")
-		(at 104.14 96.52 0)
+		(at 97.79 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7513,7 +6708,7 @@
 		(fields_autoplaced yes)
 		(uuid "84181edb-b529-4388-9a6f-22678886ab66")
 		(property "Reference" "J4"
-			(at 110.49 96.5199 0)
+			(at 104.14 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7524,7 +6719,7 @@
 			)
 		)
 		(property "Value" "XT60PW-F"
-			(at 110.49 99.0599 0)
+			(at 104.14 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7535,7 +6730,7 @@
 			)
 		)
 		(property "Footprint" "XT60PW-F:AMASS_XT60PW-F"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7547,7 +6742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7558,7 +6753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7569,7 +6764,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7581,7 +6776,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7593,7 +6788,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,7 +6800,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7617,7 +6812,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=eda"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7629,7 +6824,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7641,7 +6836,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7653,7 +6848,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=snap"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7665,7 +6860,7 @@
 			)
 		)
 		(property "MP" "XT60PW-F"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7677,7 +6872,7 @@
 			)
 		)
 		(property "Description_1" "Connector: DC supply; socket; female; XT60; 30A; 500V; PIN: 2; THT"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7689,7 +6884,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7701,7 +6896,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 104.14 96.52 0)
+			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7815,7 +7010,7 @@
 	)
 	(symbol
 		(lib_id "XT60PW-F:XT60PW-F")
-		(at 36.83 86.36 0)
+		(at 53.34 88.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7826,7 +7021,7 @@
 		(dnp no)
 		(uuid "8889c9d9-4139-4fe2-b8fe-748430636d38")
 		(property "Reference" "J2"
-			(at 30.48 86.3599 0)
+			(at 46.99 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7837,7 +7032,7 @@
 			)
 		)
 		(property "Value" "XT60PW-F"
-			(at 30.48 88.8999 0)
+			(at 46.99 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7848,7 +7043,7 @@
 			)
 		)
 		(property "Footprint" "XT60PW-F:AMASS_XT60PW-F"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,7 +7055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7871,7 +7066,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7882,7 +7077,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7894,7 +7089,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7906,7 +7101,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7918,7 +7113,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,7 +7125,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=eda"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7942,7 +7137,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7954,7 +7149,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7966,7 +7161,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=snap"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +7173,7 @@
 			)
 		)
 		(property "MP" "XT60PW-F"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7990,7 +7185,7 @@
 			)
 		)
 		(property "Description_1" "Connector: DC supply; socket; female; XT60; 30A; 500V; PIN: 2; THT"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8002,7 +7197,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8014,7 +7209,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 36.83 86.36 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8126,7 +7321,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 90.17 99.06 0)
+		(at 83.82 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8136,7 +7331,7 @@
 		(dnp no)
 		(uuid "8f8c316e-48c7-43f7-b816-8b2a32cda70b")
 		(property "Reference" "#PWR077"
-			(at 90.17 102.87 0)
+			(at 83.82 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8147,7 +7342,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 88.646 95.504 0)
+			(at 82.296 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8158,7 +7353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 99.06 0)
+			(at 83.82 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8169,7 +7364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 99.06 0)
+			(at 83.82 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8180,7 +7375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 90.17 99.06 0)
+			(at 83.82 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10048,85 +9243,6 @@
 			(project "PCE-RCE Carrier"
 				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/b13c5c10-72c7-47f9-aac2-179cc68eb567"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 114.3 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbfd83ff-3757-4648-bf1f-22618318d6b3")
-		(property "Reference" "#PWR014"
-			(at 46.99 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1360630f-dced-4fa1-9b3f-ff919f00b8c1")
-		)
-		(instances
-			(project "PCE-RCE Carrier"
-				(path "/061bd5f9-7321-49d7-bd52-d55a9dc51a00/b13c5c10-72c7-47f9-aac2-179cc68eb567"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)

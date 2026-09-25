@@ -1351,7 +1351,7 @@
 		)
 		(uuid "ffdb4b59-0f42-4e4f-a7db-496f00b9e797")
 	)
-	(hierarchical_label "PYRO2"
+	(hierarchical_label "PYRO_2"
 		(shape input)
 		(at 104.14 102.87 180)
 		(effects
@@ -1362,7 +1362,7 @@
 		)
 		(uuid "07a0f26b-e713-494a-bda6-e10adc4019c6")
 	)
-	(hierarchical_label "PYRO1"
+	(hierarchical_label "PYRO_1"
 		(shape input)
 		(at 62.23 102.87 180)
 		(effects
@@ -1373,7 +1373,7 @@
 		)
 		(uuid "1b589d21-f49f-4d10-9ab8-2772e299b8e8")
 	)
-	(hierarchical_label "PYRO4"
+	(hierarchical_label "PYRO_4"
 		(shape input)
 		(at 181.61 102.87 180)
 		(effects
@@ -1384,7 +1384,7 @@
 		)
 		(uuid "5f28772c-e22e-4b1e-ac5d-9a74d8edd90d")
 	)
-	(hierarchical_label "PYRO3"
+	(hierarchical_label "PYRO_3"
 		(shape input)
 		(at 142.24 102.87 180)
 		(effects
