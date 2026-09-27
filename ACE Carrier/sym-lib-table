@@ -5,4 +5,5 @@
 	(lib (name "2025-12-12_19-35-05") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/i2c_qwiic_connector/2025-12-12_19-35-05.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS54302DDCR") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TPS54302DDCR/TPS54302DDCR.kicad_sym") (options "") (descr ""))
 	(lib (name "RB496EATR") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/RB496EATR/RB496EATR.kicad_sym") (options "") (descr ""))
+	(lib (name "XT30UPB-M") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT30UPB-M/XT30UPB-M.kicad_sym") (options "") (descr ""))
 )

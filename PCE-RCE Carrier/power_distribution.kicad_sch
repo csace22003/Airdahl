@@ -2649,9 +2649,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "footprint matches 865080543009\ncan be any tantalum/Al electrolytic cap"
+	(text "footprint matches TAJC476K016RNJ\ncan be any tantalum/Al electrolytic cap, >200mOhms ESR, 10/16V preferred\n"
 		(exclude_from_sim no)
-		(at 146.812 50.8 0)
+		(at 134.112 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6305,7 +6305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 118.11 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8452,7 +8452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
