@@ -9,4 +9,6 @@
 	(lib (name "XT60PW-F") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT60PW-F") (options "") (descr ""))
 	(lib (name "XT30PW-M") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT30PW-M") (options "") (descr ""))
 	(lib (name "XT30UPB-M") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT30UPB-M") (options "") (descr ""))
+	(lib (name "LM293DGKR") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/LM293DGKR") (options "") (descr ""))
+	(lib (name "Si7232DN") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/Si7232DN") (options "") (descr ""))
 )

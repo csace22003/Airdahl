@@ -2000,6 +2000,10 @@
 		(uuid "a7b2cbe8-4cc0-4bee-ab68-8477d6389fd4")
 	)
 	(no_connect
+		(at 73.66 95.25)
+		(uuid "cba9deb2-969f-4f1f-b865-11f925a8278f")
+	)
+	(no_connect
 		(at 48.26 113.03)
 		(uuid "ce7e7689-1cf0-4966-807c-1c1e505646a0")
 	)
@@ -2278,6 +2282,16 @@
 			(type default)
 		)
 		(uuid "534f31aa-c01b-448b-b104-985d1f7b32e3")
+	)
+	(wire
+		(pts
+			(xy 73.66 128.27) (xy 85.09 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53926e09-5b17-43df-8e73-39aada0c3d8b")
 	)
 	(wire
 		(pts
@@ -2591,16 +2605,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 95.25) (xy 85.09 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee3fa10-953e-4408-8f1f-f9f1d29de33b")
-	)
-	(wire
-		(pts
 			(xy 105.41 93.98) (xy 91.44 93.98)
 		)
 		(stroke
@@ -2619,15 +2623,15 @@
 		)
 		(uuid "fca56f4d-c736-40c3-8307-d5764e3efda0")
 	)
-	(label "PAYLOAD_A"
-		(at 85.09 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(wire
+		(pts
+			(xy 175.26 152.4) (xy 187.96 152.4)
 		)
-		(uuid "104afd8a-d9c7-45e2-aa45-815a8d658604")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe29d9c6-00e5-407d-a933-cf7adbc31d8c")
 	)
 	(label "PAYLOAD_2F"
 		(at 93.98 121.92 0)
@@ -2658,6 +2662,16 @@
 			(justify left bottom)
 		)
 		(uuid "33ff9e00-15f2-4064-a26b-b5b1c0c7436f")
+	)
+	(label "PAYLOAD_A"
+		(at 175.26 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bb4aa09-eeb8-4861-a3f5-afedf12c68a0")
 	)
 	(label "MOSI"
 		(at 93.98 111.76 0)
@@ -2908,6 +2922,16 @@
 			(justify left bottom)
 		)
 		(uuid "e690c4f2-9366-46f8-b78e-5559bec0f6b2")
+	)
+	(label "PAYLOAD_A"
+		(at 85.09 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8cd8e2b-58b0-4c1e-a893-a3436981b555")
 	)
 	(label "SPI_CS"
 		(at 93.98 104.14 0)
@@ -4346,7 +4370,7 @@
 	)
 	(sheet
 		(at 187.96 129.54)
-		(size 26.67 20.32)
+		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4372,7 +4396,7 @@
 			)
 		)
 		(property "Sheetfile" "breakout.kicad_sch"
-			(at 187.96 150.4446 0)
+			(at 187.96 155.5246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4435,6 +4459,16 @@
 		(pin "SPI_CS" input
 			(at 187.96 139.7 180)
 			(uuid "27e5be14-c77c-4bae-9201-6f82b3fcd3b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PADYLOAD_A" output
+			(at 187.96 152.4 180)
+			(uuid "947d326e-e93e-4bbb-bd84-3f97cca96073")
 			(effects
 				(font
 					(size 1.27 1.27)
