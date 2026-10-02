@@ -676,17 +676,13 @@
         "uuid": "061bd5f9-7321-49d7-bd52-d55a9dc51a00"
       }
     ],
-    "used_designators": "Q5-7,U6-7,D1,C8-10,#PWR36-53,#PWR70-71,#PWR74,#PWR83-88,R6-13,R18-22,R24-32,R42,J3,J9,J11-12",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "061bd5f9-7321-49d7-bd52-d55a9dc51a00",
       "Root"
-    ],
-    [
-      "c8bb074a-0458-43c1-977b-030263589620",
-      "Pyro Channels"
     ],
     [
       "b13c5c10-72c7-47f9-aac2-179cc68eb567",
