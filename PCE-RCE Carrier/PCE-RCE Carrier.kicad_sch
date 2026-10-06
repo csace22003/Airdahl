@@ -1930,6 +1930,12 @@
 		(uuid "5ea290a5-51a3-4262-bfc3-519392e7f8b6")
 	)
 	(junction
+		(at 38.1 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2a1b064-ece0-4baa-85ac-7dd2e599c03d")
+	)
+	(junction
 		(at 46.99 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2063,10 +2069,6 @@
 		(at 48.26 128.27)
 		(uuid "edadd793-150f-4315-b582-128a1c2ff725")
 	)
-	(no_connect
-		(at 73.66 97.79)
-		(uuid "ff001e12-33fb-4732-8bc5-403cb22f7fbb")
-	)
 	(wire
 		(pts
 			(xy 142.24 127) (xy 142.24 121.92)
@@ -2149,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 111.76) (xy 187.96 111.76)
+			(xy 175.26 109.22) (xy 187.96 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2209,6 +2211,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 93.98) (xy 30.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbd9244-c6d0-4f04-a84d-55b71826e8c8")
+	)
+	(wire
+		(pts
 			(xy 104.14 144.78) (xy 105.41 144.78)
 		)
 		(stroke
@@ -2246,6 +2258,16 @@
 			(type default)
 		)
 		(uuid "38ff648c-7238-41a4-ac23-6b2a748b2b6b")
+	)
+	(wire
+		(pts
+			(xy 38.1 102.87) (xy 48.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1462f2-29c6-4107-8666-ae57d3e1c16c")
 	)
 	(wire
 		(pts
@@ -2389,6 +2411,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 97.79) (xy 85.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e91e446-fd1c-4ffb-b724-6b05359cdd4b")
+	)
+	(wire
+		(pts
 			(xy 85.09 110.49) (xy 73.66 110.49)
 		)
 		(stroke
@@ -2399,7 +2431,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 116.84) (xy 187.96 116.84)
+			(xy 175.26 114.3) (xy 187.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2416,6 +2448,16 @@
 			(type default)
 		)
 		(uuid "7d4fd775-9df5-426d-8520-cb2a32e1f48d")
+	)
+	(wire
+		(pts
+			(xy 48.26 93.98) (xy 48.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83944a0d-b46a-4a1d-a283-7deddfb71025")
 	)
 	(wire
 		(pts
@@ -2439,7 +2481,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 119.38) (xy 187.96 119.38)
+			(xy 175.26 116.84) (xy 187.96 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 114.3) (xy 187.96 114.3)
+			(xy 175.26 111.76) (xy 187.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2516,6 +2558,16 @@
 			(type default)
 		)
 		(uuid "c295caa4-2e47-4187-9554-afa3fd1086e2")
+	)
+	(wire
+		(pts
+			(xy 38.1 97.79) (xy 48.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34939f7-0d01-4a26-9f62-d7bba33093fc")
 	)
 	(wire
 		(pts
@@ -2549,16 +2601,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 102.87) (xy 48.26 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a71a70-f4c0-4ddd-9e66-a57667322470")
-	)
-	(wire
-		(pts
 			(xy 142.24 121.92) (xy 142.24 116.84)
 		)
 		(stroke
@@ -2569,7 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 95.25) (xy 48.26 95.25)
+			(xy 30.48 93.98) (xy 48.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2639,6 +2681,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 97.79) (xy 38.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea536965-887c-46a3-b114-2f243f53aedf")
+	)
+	(wire
+		(pts
+			(xy 175.26 119.38) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f096c20a-726f-4589-9470-a1800307c95c")
+	)
+	(wire
+		(pts
 			(xy 105.41 93.98) (xy 91.44 93.98)
 		)
 		(stroke
@@ -2667,6 +2729,16 @@
 		)
 		(uuid "fe29d9c6-00e5-407d-a933-cf7adbc31d8c")
 	)
+	(label "PAYLOAD_S"
+		(at 85.09 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09263eda-b33b-4bf3-a03d-8d56cd09a9e1")
+	)
 	(label "PAYLOAD_2F"
 		(at 93.98 121.92 0)
 		(effects
@@ -2678,7 +2750,7 @@
 		(uuid "1d1d4c2b-942a-4717-adb3-4daccbf4bbb9")
 	)
 	(label "PAYLOAD_1F"
-		(at 175.26 111.76 0)
+		(at 175.26 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2686,6 +2758,16 @@
 			(justify left bottom)
 		)
 		(uuid "30816dda-d76a-4962-9569-603d6233fc6b")
+	)
+	(label "PAYLOAD_S"
+		(at 175.26 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "333c72a5-70cf-4fe9-8375-d50809c84b79")
 	)
 	(label "MOSI"
 		(at 175.26 134.62 0)
@@ -2798,7 +2880,7 @@
 		(uuid "90e46ae9-d2c6-4a1a-9416-65c088c855bb")
 	)
 	(label "PAYLOAD_2F"
-		(at 175.26 116.84 0)
+		(at 175.26 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2818,7 +2900,7 @@
 		(uuid "c1e8d2d5-8f3d-4213-a20c-74bb03b72147")
 	)
 	(label "PAYLOAD_1R"
-		(at 175.26 114.3 0)
+		(at 175.26 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2848,7 +2930,7 @@
 		(uuid "cc01e223-c5eb-4b7a-952c-b5eb7df0c468")
 	)
 	(label "PAYLOAD_2R"
-		(at 175.26 119.38 0)
+		(at 175.26 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2889,7 +2971,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 39.37 102.87 0)
+		(at 38.1 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2899,7 +2981,7 @@
 		(dnp no)
 		(uuid "071e2c23-2261-4c9b-84bd-a0a25cc042af")
 		(property "Reference" "#PWR069"
-			(at 39.37 106.68 0)
+			(at 38.1 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,8 +2991,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_REG"
-			(at 34.544 97.282 0)
+		(property "Value" "+3V3"
+			(at 39.116 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2921,7 +3003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 102.87 0)
+			(at 38.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2932,7 +3014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 102.87 0)
+			(at 38.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2943,7 +3025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 39.37 102.87 0)
+			(at 38.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4141,8 +4223,8 @@
 		)
 	)
 	(sheet
-		(at 187.96 109.22)
-		(size 25.4 12.7)
+		(at 187.96 106.68)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4157,7 +4239,7 @@
 		)
 		(uuid "b13c5c10-72c7-47f9-aac2-179cc68eb567")
 		(property "Sheetname" "Power Distribution and Motor Control"
-			(at 187.96 108.5084 0)
+			(at 187.96 105.9684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4179,7 +4261,7 @@
 			)
 		)
 		(pin "PAYLOAD_1F" input
-			(at 187.96 111.76 180)
+			(at 187.96 109.22 180)
 			(uuid "797e0be3-7a21-46e7-8af9-06b2f87cc319")
 			(effects
 				(font
@@ -4189,7 +4271,7 @@
 			)
 		)
 		(pin "PAYLOAD_1R" input
-			(at 187.96 114.3 180)
+			(at 187.96 111.76 180)
 			(uuid "d5260921-6b2e-41eb-907b-e156d931f4d7")
 			(effects
 				(font
@@ -4199,7 +4281,7 @@
 			)
 		)
 		(pin "PAYLOAD_2F" input
-			(at 187.96 116.84 180)
+			(at 187.96 114.3 180)
 			(uuid "0c5eb050-108e-4abe-a99b-557b0c98e55c")
 			(effects
 				(font
@@ -4209,8 +4291,18 @@
 			)
 		)
 		(pin "PAYLOAD_2R" input
-			(at 187.96 119.38 180)
+			(at 187.96 116.84 180)
 			(uuid "0a936c6b-5568-4fc7-9500-6f960499b71b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PAYLOAD_SOLENOID" input
+			(at 187.96 119.38 180)
+			(uuid "372ca99f-6f0c-4e60-8a10-5e5827e37537")
 			(effects
 				(font
 					(size 1.27 1.27)

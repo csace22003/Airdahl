@@ -1416,6 +1416,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 104.14) (xy 123.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0bb676-2f06-4dcb-90e9-1dd001694ecd")
+	)
+	(wire
+		(pts
 			(xy 137.16 115.57) (xy 137.16 114.3)
 		)
 		(stroke
@@ -1433,6 +1443,36 @@
 			(type default)
 		)
 		(uuid "1be90fb2-15fd-4625-bb7f-7c2b5ef245c6")
+	)
+	(wire
+		(pts
+			(xy 128.27 109.22) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f206479-d539-4ec7-95e9-9fbbe5548da0")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab802bf-03e0-444c-b525-efc98359bf1b")
+	)
+	(wire
+		(pts
+			(xy 132.08 106.68) (xy 123.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de645c5-2e6a-4296-a4f2-88a9a4b013bb")
 	)
 	(wire
 		(pts
@@ -1456,26 +1496,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 111.76) (xy 123.19 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c9b2d0-5d4e-43dd-8efa-0a8e88de2eb1")
-	)
-	(wire
-		(pts
-			(xy 132.08 109.22) (xy 123.19 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7b119c-dd4e-4b81-a644-af863c5eb955")
-	)
-	(wire
-		(pts
 			(xy 137.16 114.3) (xy 123.19 114.3)
 		)
 		(stroke
@@ -1496,16 +1516,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 104.14) (xy 132.08 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd541d91-fa28-4ee9-8b4c-ff232fad23f5")
-	)
-	(wire
-		(pts
 			(xy 123.19 101.6) (xy 144.78 101.6)
 		)
 		(stroke
@@ -1513,16 +1523,6 @@
 			(type default)
 		)
 		(uuid "bfd29c29-b17d-4660-b73b-388f8dea3946")
-	)
-	(wire
-		(pts
-			(xy 132.08 106.68) (xy 123.19 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c936fdd9-80d9-4ef5-b8a4-f7a6d903051c")
 	)
 	(wire
 		(pts
@@ -1544,28 +1544,6 @@
 		)
 		(uuid "f3d792c0-6902-4a7e-9efb-d279b2179045")
 	)
-	(hierarchical_label "MOSI"
-		(shape input)
-		(at 132.08 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "09fc83b8-3a47-4712-b34d-04aea1f58681")
-	)
-	(hierarchical_label "MISO"
-		(shape output)
-		(at 132.08 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "18b4f6df-6a4c-4e38-a44d-3e956f4207f7")
-	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 134.62 60.96 0)
@@ -1577,19 +1555,8 @@
 		)
 		(uuid "1dcf61c0-f73e-431b-a3d5-9828a9d9370e")
 	)
-	(hierarchical_label "SCLK"
-		(shape input)
-		(at 132.08 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "329f9d12-f762-480b-8834-bd5f43a3ec87")
-	)
-	(hierarchical_label "SPI_CS"
-		(shape input)
+	(hierarchical_label "MISO"
+		(shape output)
 		(at 132.08 109.22 0)
 		(effects
 			(font
@@ -1597,7 +1564,18 @@
 			)
 			(justify left)
 		)
-		(uuid "4062dcb4-582c-4d11-8b78-c9a6cf63e221")
+		(uuid "8a9e6db3-2a76-437d-aa55-00ce9cb43bb3")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 132.08 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e836b69-c34f-4509-9a6c-58cb4f295a68")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -1609,6 +1587,28 @@
 			(justify left)
 		)
 		(uuid "d33e7ad2-a53c-4f19-bb1a-f562634bc69f")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 132.08 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbc9f120-89c8-4b44-9da7-ffc1307db5c9")
+	)
+	(hierarchical_label "SPI_CS"
+		(shape input)
+		(at 132.08 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efa15b32-2373-4347-9e35-19a482ed7f93")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
@@ -2109,7 +2109,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 125.73 104.14 270)
+		(at 125.73 109.22 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2118,9 +2118,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d833a548-d794-4eb3-b472-653e334f5df4")
+		(uuid "f3f1b34d-5b25-4585-9df4-bb2f7ef4f39e")
 		(property "Reference" "R42"
-			(at 130.048 104.14 90)
+			(at 130.048 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2130,7 +2130,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 125.73 104.14 90)
+			(at 125.73 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2140,7 +2140,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 125.73 104.14 0)
+			(at 125.73 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,7 +2151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 104.14 0)
+			(at 125.73 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2162,7 +2162,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 125.73 104.14 0)
+			(at 125.73 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2173,10 +2173,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8ac3efaa-2a4e-4c53-8526-2209cf710d29")
+			(uuid "0e94656e-df8a-4085-b26b-9a377f474f2d")
 		)
 		(pin "1"
-			(uuid "827ef0a0-9234-41dc-8c94-fd17aeee4406")
+			(uuid "90284c4f-4b7d-4a64-b6a4-eaba028be67a")
 		)
 		(instances
 			(project "RCE Carrier"
