@@ -11,4 +11,5 @@
 	(lib (name "XT30UPB-M") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT30UPB-M") (options "") (descr ""))
 	(lib (name "LM293DGKR") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/LM293DGKR") (options "") (descr ""))
 	(lib (name "Si7232DN") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/Si7232DN") (options "") (descr ""))
+	(lib (name "WURocketry_logo") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/WURocketry_logo") (options "") (descr ""))
 )
