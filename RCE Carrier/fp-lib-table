@@ -12,4 +12,5 @@
 	(lib (name "XT30UPB-M") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT30UPB-M") (options "") (descr ""))
 	(lib (name "XT60PW-F") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT60PW-F") (options "") (descr ""))
 	(lib (name "TPS75533KTTRG3") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TPS75533KTTRG3/footprints.pretty") (options "") (descr ""))
+	(lib (name "WURocketry_logo") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/WURocketry_logo") (options "") (descr ""))
 )
