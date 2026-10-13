@@ -13,4 +13,5 @@
 	(lib (name "CONUFL001-SMD-T") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/CONUFL001-SMD-T") (options "") (descr ""))
 	(lib (name "ABM3B_8_000MHZ_12_D1X_T") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/ABM3B_8_000MHZ_12_D1X_T") (options "") (descr ""))
 	(lib (name "ABS25_32_768KHZ_6_T") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/ABS25_32_768KHZ_6_T") (options "") (descr ""))
+	(lib (name "LM66200DRLR") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/LM66200DRLR/KiCADv6/footprints.pretty") (options "") (descr ""))
 )
