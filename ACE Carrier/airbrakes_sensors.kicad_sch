@@ -1855,7 +1855,7 @@
 		)
 		(uuid "fec6f85e-59c4-414d-b015-1136e13214e1")
 	)
-	(label "PITOT_SIGNAL_5V"
+	(label "PITOT_SGL_5V"
 		(at 170.18 82.55 0)
 		(effects
 			(font
@@ -1865,7 +1865,7 @@
 		)
 		(uuid "1640a03a-8dab-43ae-9bf9-20388c445504")
 	)
-	(label "PITOT_SIGNAL_5V"
+	(label "PITOT_SGL_5V"
 		(at 177.8 45.72 0)
 		(effects
 			(font
@@ -1875,7 +1875,7 @@
 		)
 		(uuid "2799e3c9-9e0b-41c1-adde-ae00fe0baea8")
 	)
-	(hierarchical_label "PITOT_SIGNAL"
+	(hierarchical_label "PITOT_SGL"
 		(shape output)
 		(at 201.93 82.55 0)
 		(effects
@@ -2284,7 +2284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 199.39 48.26 0)
 			(hide yes)
 			(show_name no)

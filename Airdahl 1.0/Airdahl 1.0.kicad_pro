@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -484,6 +487,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -549,7 +553,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
       "/USB_D_N": [
         "USB Data"
@@ -700,7 +704,7 @@
         "uuid": "e2c992a5-0f37-48ff-88a4-7c40cfcda45e"
       }
     ],
-    "used_designators": "BT1,R66-67,#PWR30-32,#PWR87,#PWR94-101,C1-2,C8-9,U7,U9,J5",
+    "used_designators": "#PWR30-32,#PWR87,#PWR94-101,BT1,C1-2,C8-9,J5,R66-67,U7,U9",
     "variants": []
   },
   "sheets": [
