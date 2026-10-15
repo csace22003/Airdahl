@@ -1566,7 +1566,7 @@
 		)
 		(uuid "2aa39250-cad5-467b-b652-54075633b4d0")
 	)
-	(hierarchical_label "SPI_CS"
+	(hierarchical_label "SCLK"
 		(shape input)
 		(at 137.16 115.57 0)
 		(effects
@@ -1577,7 +1577,7 @@
 		)
 		(uuid "364b8fb1-ffb3-4bd7-b527-8a9719d59ec1")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "SPI_CS"
 		(shape input)
 		(at 137.16 118.11 0)
 		(effects
