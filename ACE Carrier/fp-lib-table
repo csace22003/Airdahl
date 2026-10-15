@@ -6,4 +6,5 @@
 	(lib (name "TPS54302DDCR") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/TPS54302DDCR") (options "") (descr ""))
 	(lib (name "RB496EATR") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/RB496EATR") (options "") (descr ""))
 	(lib (name "XT60PW-F") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/XT60PW-F") (options "") (descr ""))
+	(lib (name "WURocketry_logo") (type "KiCad") (uri "${KIPRJMOD}/local-libraries/WURocketry_logo") (options "") (descr ""))
 )
